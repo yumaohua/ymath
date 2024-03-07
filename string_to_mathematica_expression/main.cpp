@@ -3,10 +3,14 @@
 #include "string_function.h"
 int main()
 {
-    ExpressionTreeNode node{"((((2))*8.888))+abs(-4)"};
-    node.testshow();
-    std::cout<<std::endl;
-    std::cout<<node.calculate()<<std::endl;
+    std::vector<std::string> names{"@x"};
+    std::vector<double> values{-4};
+    std::string expression{"3+(@x)"}; 
+    ExpressionTree tree{expression,names,values};
+    std::cout<<tree.calculate()<<std::endl;
+    std::vector<double> values2{-1};
+    tree.passvariablevalues(values2);
+    std::cout<<tree.calculate()<<std::endl;
     // std::vector<std::string> v;
     // v.push_back("not");
     // v.push_back("@a");

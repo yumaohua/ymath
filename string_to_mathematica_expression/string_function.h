@@ -39,6 +39,7 @@ class ExpressionTreeNode {
         std::string _expression="";
        std::string _variableName="not";
        std::vector<std::string> _variableNames;
+       std::vector<double> _variableValues;
     private:
         /// @brief 括号匹配算法,检测括号是否匹配,去掉多余的最外层一组括号
         /// @return 是否去掉括号,去掉返回true,不去掉或括号不匹配返回false
@@ -87,17 +88,6 @@ class ExpressionTreeNode {
             {
                 _expression="0"+_expression;
             }
-        }
-        /// @brief 初始化函数
-        /// @param expression 读取的表达式
-        /// @param father  父节点的指针
-        void initialize(const std::string& expression,ExpressionTreeNode* father)
-        {
-            _expression = expression;
-            _father = father;
-            easyexpression();
-            setvariablenames();
-            setparameters();
         }
         /// @brief 获取函数运算类型即参数的表达式
         /// @return 参数表达式的vector
@@ -200,17 +190,20 @@ class ExpressionTreeNode {
             if(_expression[0]=='@')
             {
                 bool isvariable=false;
+                std::cout<<_expression<<" "<<std::endl;
                 for(std::string name: _variableNames)
                 {
                     if(_expression.compare(name)==0)
                     {
-                        _variableName.assign(_expression);
+                        _variableName=_expression;
                         isvariable = true;
+                        break;
                     }
                 }
                 if(isvariable)
                 {
                     _operator=Variable;
+                    
                     return {};
                 }
             }
@@ -281,20 +274,41 @@ class ExpressionTreeNode {
         {
             for(auto parameter_expression:getparameters())
             { 
-                _parameters.push_back( new ExpressionTreeNode(parameter_expression,this));
+                _parameters.push_back( new ExpressionTreeNode(parameter_expression,this,_variableNames,_variableValues));
             }
         }
 
     public:
-        ExpressionTreeNode(const std::string& expression,ExpressionTreeNode* father=nullptr)
+        ExpressionTreeNode(){}
+        ExpressionTreeNode(const std::string& expression,ExpressionTreeNode* father=nullptr,const std::vector<std::string>& variableNames={},const std::vector<double>& variableValues={})
         {
-            initialize(expression,father);
+            initialize(expression,father,variableNames,variableValues);
         }
-        void setvariablenames()
+        /// @brief 初始化函数
+        /// @param expression 读取的表达式
+        /// @param father  父节点的指针
+        void initialize(const std::string& expression,ExpressionTreeNode* father=nullptr,const std::vector<std::string>& variableNames={},const std::vector<double>& variableValues={})
         {
-            _variableNames.push_back("not");
-            _variableNames.push_back("@x");
-            _variableNames.push_back("@y");
+            _expression = expression;
+            _father = father;
+            easyexpression();
+            setvariablenames(variableNames);
+            setvariablevalues(variableValues);
+            setparameters();
+        }
+        void setvariablenames(const std::vector<std::string> variableNames)
+        {
+            for(auto name:variableNames)
+            {
+                _variableNames.push_back(name);
+            }
+        }
+        void setvariablevalues(const std::vector<double> variableValues)
+        {
+            for(auto value:variableValues)
+            {
+                _variableValues.push_back(value);
+            }
         }
         /// @brief 将运算与Operator枚举匹配,然后根据运算类型对参数进行运算
         /// @return _value值
@@ -304,6 +318,17 @@ class ExpressionTreeNode {
             {
             case None:
                 std::cerr<<"Error:解析时出现None类型"<<std::endl;
+                break;
+            case Variable:
+            {
+                int index=0;
+                for(;index<_variableNames.size();index++)
+                {
+                    if(_variableName.compare(_variableNames[index])==0)
+                    break;
+                }
+                _value=_variableValues[index];
+            }
                 break;
             case Equal:
                 break;
@@ -340,9 +365,24 @@ class ExpressionTreeNode {
         {
             return _expression;
         }
-
+        void show()
+        {
+            std::cout<<std::endl<<"name:";
+            for(auto name:_variableNames)
+            {
+                std::cout<<name<<"  ";
+            }
+            std::cout<<std::endl;
+            std::cout<<"value:";
+            for(auto name:_variableValues)
+            {
+                std::cout<<name<<"  ";
+            }
+            std::cout<<std::endl;
+        }
         void testshow()
         {
+            //show();
             if(_operator==Add||_operator==Minus)
             {
                 std::cout<<"(";
@@ -383,40 +423,40 @@ class ExpressionTreeNode {
                 std::cout<<")";
             }
         }
+        void passvariablevalues(const std::vector<double>& variableValues)
+        {
+            _variableValues=variableValues;
+            for(auto p:_parameters)
+            {
+                p->passvariablevalues(variableValues);
+            }
+        }
 };
 class ExpressionTree {
     private:
         /// @brief 表达树的根节点
         ExpressionTreeNode _rootNode;
-        /// @brief 变量varA的节点
-        std::vector<ExpressionTreeNode*> _varANodes;
-        /// @brief 变量varB的节点
-        std::vector<ExpressionTreeNode*> _varBNodes;
-        /// @brief 两个变量的值
-        double _varA=0,_varB=0;
-        /// @brief 以x和y参数
-        std::string _sVarA="@x",_sVarB="@y"; 
     private:
-        /// @brief 给树中代表变量的节点赋值
-        void setvariable()
-        {
-            for(auto node:_varANodes)
-            {
-                (*node).setvalue(_varA);
-            }
-            for(auto node:_varBNodes)
-            {
-                (*node).setvalue(_varB);
-            }
-        }
-        ///TODO 将字符串化成树
         ///TODO 将函数放到表达式中
     public:
+        ExpressionTree(){}
+        ExpressionTree(const std::string & expression,const std::vector<std::string>& variableNames={},const std::vector<double>& variableValues={})
+        {
+            initialize(expression,variableNames,variableValues);
+        }
+        void initialize(const std::string & expression,const std::vector<std::string>& variableNames={},const std::vector<double>& variableValues={})
+        {
+            _rootNode.initialize(expression,nullptr,variableNames,variableValues);
+        }
         /// @brief 计算表达数的结果
         /// @return 计算结果
         double calculate()
         {
             return _rootNode.calculate();
+        }
+        void passvariablevalues(const std::vector<double> & variableValues)
+        {
+            _rootNode.passvariablevalues(variableValues);
         }
 };
 class StringFunction {
