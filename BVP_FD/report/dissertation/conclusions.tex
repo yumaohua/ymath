@@ -1,0 +1,28 @@
+\chapter{Conclusions}
+\label{ch:conclusions}
+
+% The project is a success. Summarise what you have done and accomplished.
+结合上一章绘图,发现在不同算例下,误差分布有以下规律,
+
+\begin{itemize}
+    \item 离$Dirichlet$条件点越远,误差越大
+    \item 离$Neumann$条件点越近,误差越大
+\end{itemize}
+
+从$max-norm$的变化来看,误差都是关于h一阶收敛的.
+
+
+\section{Future work}
+
+%Suggest what projects might follow up on this. The suggestions here should \textbf{not} be small improvements to what you have done, but more substantial work that can now be done thanks to the work you have done or research questions that have resulted from your work.
+目前程序存在以下缺点
+\begin{itemize}
+    \item 程序在建立格点到线性系统的位置之间的关系时,使用了两个HashMap,这导致了内存的浪费,尤其是格点很多时.
+    \item 程序对于所有情况的周边含有非离散点的点一视同仁,都按照最复杂情况计算,导致了运行效率上的损失.
+    \item 程序在很多比较方面采用了字符串比较,换成枚举会更好.
+    \item 在调用函数时采用了不安全的函数指针.
+    \item 在设计某些类时,没有考虑并封装好其功能,并且在它作为别的类的成员时,没有考虑到外部访问它的需求,在代码已经很多修改效率低下的情况下,只能采取将其作为其它类的public成员的方法.
+\end{itemize}
+
+希望吸收此次作业的教训,学习编程的经验,将以后的作业完成的更好.此外,在算法精度上没有达到理想的二阶收敛等要求,希望学习优秀的算法实现,将数学原理和编程实现更好地融会贯通.
+

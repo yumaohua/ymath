@@ -1,0 +1,19 @@
+{
+    "solver":{
+        "grid_number":8,
+        "output_name":"n8f1mcm"
+    },
+    "domain":{
+        "if_subtract_a_cycle":true,
+        "boundary_condition":{
+            "type":"mixed"
+        },
+        "cycle":{
+            "radius":0.28,
+            "center":[0.0,0.0],
+            "boundary_condition":{
+                "type":"mixed"
+            }
+        }
+    }
+}

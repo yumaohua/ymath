@@ -1,0 +1,27 @@
+\chapter{Introduction}
+\label{ch:introduction}
+
+%Write around four paragraphs establishing the context and motivating your project.
+
+% \section{Related work}
+
+% Discuss related work.
+
+\section{Objectives}
+
+% One sentence summary of your project. Followed by a short list of concrete objectives:
+该项目设计了利用有限差分法求解二阶Possion方程的程序.利用C++和五点差分
+完成计算(目录下运行make run执行main程序读取input中输入并计算,输出结果到output)
+,利用python实现绘图(绘图结果在image中).
+
+计算程序的定义域为$(0,1)^2$或$(0,1)^2$减去一个圆盘,要求减去圆盘后剩余区域连通.
+
+\begin{itemize}
+    \item 检测定义域连通性
+    \item 在$(0,1)^2$上计算带有Dirichlet边界条件的Poission方程
+    \item 在$(0,1)^2$上计算带有Neumann边界条件的Poission方程(需要设定Dirichlet条件的点使得结果唯一)
+    \item 在$(0,1)^2$上计算带有Mixed(部分Dirichlet,部分Neumann)边界条件的Poission方程
+    \item 在$(0,1)^2$减去一个圆盘的定义域上完成以上计算
+    \item 可以计算solution error的$1-norm,2-norm,max-norm$
+    \item 对解和solution error进行画图
+\end{itemize}

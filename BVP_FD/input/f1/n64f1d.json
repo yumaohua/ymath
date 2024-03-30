@@ -1,0 +1,19 @@
+{
+    "solver":{
+        "grid_number":64,
+        "output_name":"n64f1d"
+    },
+    "domain":{
+        "if_subtract_a_cycle":false,
+        "boundary_condition":{
+            "type":"dirichlet"
+        },
+        "cycle":{
+            "radius":0.28,
+            "center":[0.0,0.0],
+            "boundary_condition":{
+                "type":"dirichlet"
+            }
+        }
+    }
+}
