@@ -1,5 +1,7 @@
 #include <cmath>
 #include <algorithm>
+#include <limits>
+#include <unordered_map>
 #include "../include/PDDistance.h"
 
 double distance(const std::vector<double> &point1, const std::vector<double> &point2) {
@@ -150,7 +152,6 @@ std::vector<int> Map::onepath(Merge & merge,double epsilon) {
                 if(direction(begin,v,merge,epsilon)==UToV){
                     if (VVisited.find(v)==VVisited.end()) {
                         if (pathV(v,merge,epsilon,UVisited,VVisited,path)){
-                            std::cout<<"begin:"<<begin<<std::endl;
                             return path;
                         }
                         else{
@@ -165,7 +166,7 @@ std::vector<int> Map::onepath(Merge & merge,double epsilon) {
             path.pop_back();
         }
     }
-    std::cerr<<"no path found"<<std::endl;
+    // std::cerr<<"no path found"<<std::endl;
     return path;
 }
 
@@ -173,14 +174,12 @@ bool Map::pathV(int v,Merge & merge,double epsilon,std::unordered_map<int,bool> 
     VVisited[v]=true;
     path.push_back(v);
     if(merge.findV(v)==-1){
-        std::cout<<"end:"<<v<<"-";
         return true;
     }
     for(int u=0;u<_dim;u++) {
         if(direction(u,v,merge,epsilon)==VToU){
             if(UVisited.find(u)==UVisited.end()){
                 if(pathU(u,merge,epsilon,UVisited,VVisited,path)){
-                    std::cout<<"v:"<<v<<"-";
                     return true;
                 }
                 else{
@@ -202,7 +201,6 @@ bool Map::pathU(int u,Merge & merge,double epsilon,std::unordered_map<int,bool> 
         if(direction(u,v,merge,epsilon)==UToV){
             if(VVisited.find(v)==VVisited.end()){
                 if(pathV(u,merge,epsilon,UVisited,VVisited,path)){ 
-                    std::cout<<"u:"<<u<<"-";
                     return true;
                 }
                 else{
@@ -230,9 +228,6 @@ void Map::maxmerge(Merge&merge,double epsilon){
 
 double Map::bottleneck(){
     std::vector<double> sortedge = sort();
-    // for(auto& edge : sortedge){
-    //     std::cout<<edge<<std::endl;
-    // }
     int down = sortedge[0];
     int size = sortedge.size();
     int up = size-1;
@@ -242,9 +237,6 @@ double Map::bottleneck(){
         Merge merge;
         double epsilon = sortedge[epsilonindex];
         maxmerge(merge, epsilon);
-        merge.print();
-        std::cout<<"epsilon:"<<epsilonindex<<std::endl;
-        std::cout<<"--------------------------------"<<std::endl;
         if(merge.size() == _dim){
             up = epsilonindex;
             if(up-down==1){
@@ -267,4 +259,179 @@ double Map::bottleneck(){
         }
     }
     return -1;
+}
+int min(const std::vector<int>& unfinish,const std::unordered_map<int, double>& gamma){
+    int minindex = -1;
+    double minvalue = std::numeric_limits<double>::infinity();
+    for(const auto& pair:gamma){
+        if(std::find(unfinish.begin(),unfinish.end(),pair.first)!=unfinish.end()){
+            if(pair.second < minvalue&& pair.second != -1)
+            {
+                minvalue = pair.second;
+                minindex = pair.first;
+            }
+        }
+    }
+    return minindex;
+}
+void Map::dijkstra(
+    Merge& merge,
+    std::vector<int>& mincostpath,
+    std::unordered_map<int, double>&du,
+    std::unordered_map<int, double>&dv){
+    std::vector<int> finishu;
+    std::vector<int> finishv;
+    std::vector<int> unfinishu;
+    std::vector<int> unfinishv;
+    std::unordered_map<int, double> gammau;
+    std::unordered_map<int, double> gammav;
+    for(int u=0;u<_dim;u++) {
+        unfinishu.push_back(u);
+        unfinishv.push_back(u);
+        gammav[u]=-1;
+        if(merge.findU(u)==-1) {
+            gammau[u]=0;
+        }
+        else {
+            gammau[u]=-1;
+        }
+    }
+
+    while(unfinishu.size()!=0||unfinishv.size()!=0){
+        auto minu = min(unfinishu,gammau);
+        auto minv = min(unfinishv,gammav);
+
+        if ((minu!=-1&&minv!=-1&&(gammau[minu] < gammav[minv]))||minv==-1) {
+            finishu.push_back(minu);
+            unfinishu.erase(std::remove(unfinishu.begin(),unfinishu.end(),minu),unfinishu.end());
+            for(int v = 0; v<_dim;v++) {
+                if(std::find(unfinishv.begin(),unfinishv.end(),v)!=unfinishv.end())
+                {
+                    if(direction(minu,v,merge,std::numeric_limits<double>::infinity())==UToV) {
+                        double newgamma = gammau[minu]+_data[minu][v]-du[minu]-dv[v];
+                        if (gammav[v]>newgamma||gammav[v]==-1) {
+                            gammav[v] = newgamma;
+                        }
+                    }
+                }
+            }
+        }
+        else if(minu==-1&&minv==-1){std::cerr<<"dijkstra wrong"<<std::endl;break;}
+        else {
+            finishv.push_back(minv);
+            unfinishv.erase(std::remove(unfinishv.begin(),unfinishv.end(),minv),unfinishv.end());
+            for(int u = 0; u<_dim;u++) {
+                if(std::find(unfinishu.begin(),unfinishu.end(),u)!=unfinishu.end())
+                {
+                    if(direction(u,minv,merge,std::numeric_limits<double>::infinity())==VToU) {
+                        double newgamma = gammav[minv]+_data[u][minv]-du[u]-dv[minv];
+                        if (gammau[u]>newgamma||gammau[u]==-1) {
+                            gammau[u] = newgamma;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    int tos=-1;
+    double tosvalue = std::numeric_limits<double>::infinity();
+    for(int v=0; v<_dim;v++){
+        if(merge.findV(v)==-1){
+            if(gammav[v]<tosvalue){
+                tosvalue = gammav[v];
+                tos = v;
+            }
+        }
+    }
+    if(tos==-1){
+        std::cerr<<"minimum cost value not found"<<std::endl;
+    }
+    else{
+        bool finish=true;
+        for(int u=0;u<_dim;u++){
+            if(merge.findU(u)==-1)
+            {
+                finish=false;
+                break;
+            }
+        }
+        if(!finish){
+            bool inV = true;
+            int index = tos;
+            mincostpath.clear();
+            mincostpath.push_back(index);
+            int count = 0;
+            while(true){
+                // std::cout<<"begin-inV:"<<inV<<std::endl;
+                if(inV==true){
+                    for(int u=0;u<_dim;u++){
+                        if(direction(u,index,merge,std::numeric_limits<double>::infinity())==UToV){
+                            if(gammau[u]+_data[u][index]-du[u]-dv[index]==gammav[index]){
+                                inV = false;
+                                index=u;
+                                mincostpath.push_back(u);
+                                break;
+                            }
+                        }
+                    }
+                }
+                else if(inV==false){
+                    if(merge.findU(index)==-1){
+                        std::reverse(mincostpath.begin(),mincostpath.end());
+                        return;
+                    }
+                    for(int v=0;v<_dim;v++){
+                        if(direction(index,v,merge,std::numeric_limits<double>::infinity())==VToU){
+                            if(gammav[v]+_data[index][v]-du[index]-dv[v]==gammau[index]){
+                                count++;
+                                index=v;
+                                inV=true;
+                                mincostpath.push_back(v);
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    for(int u = 0; u<_dim;u++){
+        du[u]-=gammau[u];
+    }
+    for(int v = 0; v<_dim;v++){
+        dv[v]+=gammav[v];
+    }
+}
+
+double Map::wasserstein(int p){
+    std::unordered_map<int, double>du;
+    std::unordered_map<int, double>dv;
+    for(int u = 0; u<_dim;u++){
+        du[u]=0;
+        dv[u]=0;
+    }
+    std::vector<int> minimumcostpath{};
+    Merge merge;
+    maxmerge(merge,0);
+    do{
+        dijkstra(merge,minimumcostpath,du,dv);
+        merge.update(minimumcostpath);
+    }
+    while(merge.size()<_dim);
+    double wasserstein = 0;
+    if(p!=-1){
+        for(int u = 0; u<_dim;u++){
+            wasserstein+=pow(_data[u][merge.findU(u)],p);
+        }   
+        return pow(wasserstein,1.0/p);
+    }
+    else{
+        for(int u = 0; u<_dim;u++){
+            if(wasserstein<_data[u][merge.findU(u)]){
+                wasserstein=_data[u][merge.findU(u)];
+            }
+        }   
+        return wasserstein;
+    }
 }

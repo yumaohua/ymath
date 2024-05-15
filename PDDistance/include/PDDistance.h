@@ -102,6 +102,7 @@ public:
     bool pathV(int input,Merge & merge,double epsilon,std::unordered_map<int, bool>& UVisited,std::unordered_map<int, bool> & VVisited,std::vector<int>& path);
     void maxmerge(Merge&merge,double epsilon);
     double bottleneck();
+    void dijkstra(Merge&merge,std::vector<int>& mincostpath,std::unordered_map<int, double>&du,std::unordered_map<int, double>&dv);
+    double wasserstein(int p);
 };
 
-std::vector<int> dijkstra(const Map& value,const Map& direction);
