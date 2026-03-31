@@ -1,0 +1,1146 @@
+Adams-Moulton_190(step_number=500000,order=2):
+10.190 solution errors: -0.000232064 -0.000905862 0 -0.137866 -0.0491752 0 
+maxNorm of solution error:0.137866
+cpuTime :5.99201
+-------------------------------------------------
+Adams-Moulton_190(step_number=750000,order=2):
+10.190 solution errors: -0.000110576 -0.000403563 0 -0.0637305 -0.0199367 0 
+maxNorm of solution error:0.0637305
+cpuTime :8.97002
+-------------------------------------------------
+Adams-Moulton_190(step_number=875000,order=2):
+10.190 solution errors: -8.24403e-05 -0.000296612 0 -0.0471976 -0.0143198 0 
+maxNorm of solution error:0.0471976
+cpuTime :11.6234
+-------------------------------------------------
+Adams-Moulton_190(step_number=937500,order=2):
+10.190 solution errors: -7.2191e-05 -0.000258415 0 -0.0412302 -0.0123702 0 
+maxNorm of solution error:0.0412302
+cpuTime :9.57736
+-------------------------------------------------
+Adams-Moulton_190(step_number=968750,order=2):
+10.190 solution errors: -6.77602e-05 -0.000242025 0 -0.0386595 -0.0115429 0 
+maxNorm of solution error:0.0386595
+cpuTime :11.9486
+-------------------------------------------------
+Adams-Moulton_190(step_number=984375,order=2):
+10.190 solution errors: -6.56945e-05 -0.000234409 0 -0.0374629 -0.0111604 0 
+maxNorm of solution error:0.0374629
+cpuTime :10.7002
+-------------------------------------------------
+Adams-Moulton_190(step_number=992188,order=2):
+10.190 solution errors: -6.46964e-05 -0.000230734 0 -0.0368851 -0.0109763 0 
+maxNorm of solution error:0.0368851
+cpuTime :9.55466
+-------------------------------------------------
+Adams-Moulton_190(step_number=996094,order=2):
+10.190 solution errors: -6.42059e-05 -0.00022893 0 -0.0366012 -0.0108859 0 
+maxNorm of solution error:0.0366012
+cpuTime :11.0899
+-------------------------------------------------
+Adams-Moulton_190(step_number=998047,order=2):
+10.190 solution errors: -6.39626e-05 -0.000228035 0 -0.0364605 -0.0108412 0 
+maxNorm of solution error:0.0364605
+cpuTime :13.9514
+-------------------------------------------------
+Adams-Moulton_190(step_number=999024,order=2):
+10.190 solution errors: -6.38415e-05 -0.00022759 0 -0.0363904 -0.0108189 0 
+maxNorm of solution error:0.0363904
+cpuTime :14.6149
+-------------------------------------------------
+Adams-Moulton_190(step_number=999512,order=2):
+10.190 solution errors: -6.37811e-05 -0.000227368 0 -0.0363555 -0.0108078 0 
+maxNorm of solution error:0.0363555
+cpuTime :11.9441
+-------------------------------------------------
+Adams-Moulton_190(step_number=999756,order=2):
+10.190 solution errors: -6.37509e-05 -0.000227257 0 -0.036338 -0.0108023 0 
+maxNorm of solution error:0.036338
+cpuTime :11.5909
+-------------------------------------------------
+Adams-Moulton_190(step_number=999878,order=2):
+10.190 solution errors: -6.37359e-05 -0.000227202 0 -0.0363293 -0.0107995 0 
+maxNorm of solution error:0.0363293
+cpuTime :12.3935
+-------------------------------------------------
+Adams-Moulton_190(step_number=999939,order=2):
+10.190 solution errors: -6.37283e-05 -0.000227174 0 -0.0363249 -0.0107981 0 
+maxNorm of solution error:0.0363249
+cpuTime :11.9287
+-------------------------------------------------
+Adams-Moulton_190(step_number=999970,order=2):
+10.190 solution errors: -6.37245e-05 -0.00022716 0 -0.0363227 -0.0107974 0 
+maxNorm of solution error:0.0363227
+cpuTime :9.78414
+-------------------------------------------------
+Adams-Moulton_190(step_number=999985,order=2):
+10.190 solution errors: -6.37226e-05 -0.000227153 0 -0.0363216 -0.0107971 0 
+maxNorm of solution error:0.0363216
+cpuTime :8.93976
+-------------------------------------------------
+Adams-Moulton_190(step_number=999993,order=2):
+10.190 solution errors: -6.37217e-05 -0.000227149 0 -0.0363211 -0.0107969 0 
+maxNorm of solution error:0.0363211
+cpuTime :9.16737
+-------------------------------------------------
+Adams-Moulton_190(step_number=999997,order=2):
+10.190 solution errors: -6.37212e-05 -0.000227148 0 -0.0363208 -0.0107968 0 
+maxNorm of solution error:0.0363208
+cpuTime :8.89277
+-------------------------------------------------
+Adams-Moulton_190(step_number=999999,order=2):
+10.190 solution errors: -6.37209e-05 -0.000227147 0 -0.0363206 -0.0107968 0 
+maxNorm of solution error:0.0363206
+cpuTime :9.03535
+-------------------------------------------------
+Adams-Moulton_190(step_number=1000000,order=2):
+10.190 solution errors: -6.37208e-05 -0.000227146 0 -0.0363206 -0.0107967 0 
+maxNorm of solution error:0.0363206
+cpuTime :9.07433
+-------------------------------------------------
+Adams-Moulton_191(step_number=500000,order=2):
+10.191 solution errors: 1.25298e-07 3.5721e-08 -0 5.65762e-07 -2.28441e-07 -0 
+maxNorm of solution error:5.65762e-07
+cpuTime :4.52307
+-------------------------------------------------
+Adams-Moulton_191(step_number=250000,order=2):
+10.191 solution errors: 5.01475e-07 1.42601e-07 -0 2.26426e-06 -9.14331e-07 -0 
+maxNorm of solution error:2.26426e-06
+cpuTime :2.84462
+-------------------------------------------------
+Adams-Moulton_191(step_number=125000,order=2):
+10.191 solution errors: 2.00587e-06 5.70419e-07 -0 9.05699e-06 -3.65724e-06 -0 
+maxNorm of solution error:9.05699e-06
+cpuTime :1.30638
+-------------------------------------------------
+Adams-Moulton_191(step_number=62500,order=2):
+10.191 solution errors: 8.02321e-06 2.28164e-06 -0 3.62281e-05 -1.46284e-05 -0 
+maxNorm of solution error:3.62281e-05
+cpuTime :0.713742
+-------------------------------------------------
+Adams-Moulton_191(step_number=31250,order=2):
+10.191 solution errors: 3.20918e-05 9.12295e-06 -0 0.000144928 -5.85099e-05 -0 
+maxNorm of solution error:0.000144928
+cpuTime :0.373244
+-------------------------------------------------
+Adams-Moulton_191(step_number=15625,order=2):
+10.191 solution errors: 0.000128348 3.64363e-05 -0 0.000579958 -0.000233978 -0 
+maxNorm of solution error:0.000579958
+cpuTime :0.213018
+-------------------------------------------------
+Adams-Moulton_191(step_number=7812,order=2):
+10.191 solution errors: 0.00051315 0.000144875 -0 0.00232405 -0.000935035 -0 
+maxNorm of solution error:0.00232405
+cpuTime :0.158333
+-------------------------------------------------
+Adams-Moulton_191(step_number=11718,order=2):
+10.191 solution errors: 0.000228168 6.46816e-05 -0 0.00103162 -0.000415899 -0 
+maxNorm of solution error:0.00103162
+cpuTime :0.197893
+-------------------------------------------------
+Adams-Moulton_191(step_number=13671,order=2):
+10.191 solution errors: 0.000167649 4.75668e-05 -0 0.000757723 -0.00030561 -0 
+maxNorm of solution error:0.000757723
+cpuTime :0.193063
+-------------------------------------------------
+Adams-Moulton_191(step_number=12694,order=2):
+10.191 solution errors: 0.000194441 5.51471e-05 -0 0.000878952 -0.000354437 -0 
+maxNorm of solution error:0.000878952
+cpuTime :0.181672
+-------------------------------------------------
+Adams-Moulton_191(step_number=12206,order=2):
+10.191 solution errors: 0.000210294 5.96299e-05 -0 0.000950704 -0.000383327 -0 
+maxNorm of solution error:0.000950704
+cpuTime :0.170388
+-------------------------------------------------
+Adams-Moulton_191(step_number=11962,order=2):
+10.191 solution errors: 0.000218958 6.20788e-05 -0 0.000989922 -0.000399115 -0 
+maxNorm of solution error:0.000989922
+cpuTime :0.174474
+-------------------------------------------------
+Adams-Moulton_191(step_number=11840,order=2):
+10.191 solution errors: 0.000223492 6.33602e-05 -0 0.00101045 -0.000407378 -0 
+maxNorm of solution error:0.00101045
+cpuTime :0.171776
+-------------------------------------------------
+Adams-Moulton_191(step_number=11901,order=2):
+10.191 solution errors: 0.000221207 6.27146e-05 -0 0.00100011 -0.000403215 -0 
+maxNorm of solution error:0.00100011
+cpuTime :0.168359
+-------------------------------------------------
+Adams-Moulton_191(step_number=11931,order=2):
+10.191 solution errors: 0.000220097 6.24007e-05 -0 0.000995078 -0.000401191 -0 
+maxNorm of solution error:0.000995078
+cpuTime :0.171555
+-------------------------------------------------
+Adams-Moulton_191(step_number=11916,order=2):
+10.191 solution errors: 0.000220651 6.25573e-05 -0 0.000997587 -0.000402201 -0 
+maxNorm of solution error:0.000997587
+cpuTime :0.171802
+-------------------------------------------------
+Adams-Moulton_191(step_number=11908,order=2):
+10.191 solution errors: 0.000220947 6.26411e-05 -0 0.000998929 -0.000402741 -0 
+maxNorm of solution error:0.000998929
+cpuTime :0.164421
+-------------------------------------------------
+Adams-Moulton_191(step_number=11904,order=2):
+10.191 solution errors: 0.000221096 6.26831e-05 -0 0.000999601 -0.000403012 -0 
+maxNorm of solution error:0.000999601
+cpuTime :0.191343
+-------------------------------------------------
+Adams-Moulton_191(step_number=11902,order=2):
+10.191 solution errors: 0.00022117 6.27041e-05 -0 0.000999938 -0.000403147 -0 
+maxNorm of solution error:0.000999938
+cpuTime :0.183787
+-------------------------------------------------
+Adams-Moulton_190(step_number=1000,order=2):
+10.190 solution errors: 14.1891 36.8261 0 37.6248 -13.0358 0 
+maxNorm of solution error:37.6248
+cpuTime :19.2926
+-------------------------------------------------
+Adams-Moulton_191(step_number=1000,order=2):
+10.191 solution errors: 0.0292782 0.0045542 -0 0.165372 -0.049659 -0 
+maxNorm of solution error:0.165372
+cpuTime :0.02282
+-------------------------------------------------
+Adams-Moulton_190(step_number=10000,order=2):
+10.190 solution errors: 2.29964 -2.71289 0 -2.33462 -3.25336 0 
+maxNorm of solution error:3.25336
+cpuTime :0.180103
+-------------------------------------------------
+Adams-Moulton_191(step_number=10000,order=2):
+10.191 solution errors: 0.000313259 8.86953e-05 -0 0.00141706 -0.000570943 -0 
+maxNorm of solution error:0.00141706
+cpuTime :0.141437
+-------------------------------------------------
+Adams-Moulton_190(step_number=100000,order=2):
+10.190 solution errors: -0.000177244 -0.0189872 0 -0.704002 -1.09329 0 
+maxNorm of solution error:1.09329
+cpuTime :1.01609
+-------------------------------------------------
+Adams-Moulton_191(step_number=100000,order=2):
+10.191 solution errors: 3.13414e-06 8.91286e-07 -0 1.41515e-05 -5.71438e-06 -0 
+maxNorm of solution error:1.41515e-05
+cpuTime :1.07538
+-------------------------------------------------
+Adams-Moulton_190(step_number=1000000,order=2):
+10.190 solution errors: -6.37208e-05 -0.000227146 0 -0.0363206 -0.0107967 0 
+maxNorm of solution error:0.0363206
+cpuTime :18.5188
+-------------------------------------------------
+Adams-Moulton_191(step_number=1000000,order=2):
+10.191 solution errors: 3.15038e-08 8.78306e-09 -0 1.42219e-07 -5.74432e-08 -0 
+maxNorm of solution error:1.42219e-07
+cpuTime :9.0922
+-------------------------------------------------
+Adams-Moulton_190(step_number=500000,order=3):
+10.190 solution errors: -7.56516e-07 -2.67416e-06 0 -0.000434087 -0.000117778 0 
+maxNorm of solution error:0.000434087
+cpuTime :5.41277
+-------------------------------------------------
+Adams-Moulton_190(step_number=250000,order=3):
+10.190 solution errors: -5.62047e-06 -2.00209e-05 0 -0.00324577 -0.000881074 0 
+maxNorm of solution error:0.00324577
+cpuTime :2.80291
+-------------------------------------------------
+Adams-Moulton_190(step_number=375000,order=3):
+10.190 solution errors: -1.75097e-06 -6.20293e-06 0 -0.00100662 -0.00027298 0 
+maxNorm of solution error:0.00100662
+cpuTime :4.14006
+-------------------------------------------------
+Adams-Moulton_190(step_number=437500,order=3):
+10.190 solution errors: -1.11788e-06 -3.95508e-06 0 -0.000641947 -0.000174125 0 
+maxNorm of solution error:0.000641947
+cpuTime :4.70994
+-------------------------------------------------
+Adams-Moulton_190(step_number=406250,order=3):
+10.190 solution errors: -1.38744e-06 -4.91163e-06 0 -0.000797145 -0.000216194 0 
+maxNorm of solution error:0.000797145
+cpuTime :4.17191
+-------------------------------------------------
+Adams-Moulton_190(step_number=390625,order=3):
+10.190 solution errors: -1.55514e-06 -5.50716e-06 0 -0.000893757 -0.000242384 0 
+maxNorm of solution error:0.000893757
+cpuTime :4.02988
+-------------------------------------------------
+Adams-Moulton_190(step_number=382812,order=3):
+10.190 solution errors: -1.6492e-06 -5.84129e-06 0 -0.00094796 -0.000257077 0 
+maxNorm of solution error:0.00094796
+cpuTime :3.9784
+-------------------------------------------------
+Adams-Moulton_190(step_number=378906,order=3):
+10.190 solution errors: -1.69907e-06 -6.0185e-06 0 -0.000976705 -0.00026487 0 
+maxNorm of solution error:0.000976705
+cpuTime :3.90474
+-------------------------------------------------
+Adams-Moulton_190(step_number=376953,order=3):
+10.190 solution errors: -1.72476e-06 -6.10978e-06 0 -0.000991512 -0.000268884 0 
+maxNorm of solution error:0.000991512
+cpuTime :3.88866
+-------------------------------------------------
+Adams-Moulton_190(step_number=375976,order=3):
+10.190 solution errors: -1.7378e-06 -6.15615e-06 0 -0.000999032 -0.000270923 0 
+maxNorm of solution error:0.000999032
+cpuTime :3.92801
+-------------------------------------------------
+Adams-Moulton_190(step_number=375488,order=3):
+10.190 solution errors: -1.74437e-06 -6.17948e-06 0 -0.00100282 -0.000271949 0 
+maxNorm of solution error:0.00100282
+cpuTime :3.8895
+-------------------------------------------------
+Adams-Moulton_190(step_number=375732,order=3):
+10.190 solution errors: -1.74109e-06 -6.16781e-06 0 -0.00100092 -0.000271436 0 
+maxNorm of solution error:0.00100092
+cpuTime :3.95705
+-------------------------------------------------
+Adams-Moulton_190(step_number=375854,order=3):
+10.190 solution errors: -1.73944e-06 -6.16196e-06 0 -0.000999976 -0.000271178 0 
+maxNorm of solution error:0.000999976
+cpuTime :3.94736
+-------------------------------------------------
+Adams-Moulton_190(step_number=375793,order=3):
+10.190 solution errors: -1.74026e-06 -6.16489e-06 0 -0.00100045 -0.000271307 0 
+maxNorm of solution error:0.00100045
+cpuTime :3.88682
+-------------------------------------------------
+Adams-Moulton_190(step_number=375823,order=3):
+10.190 solution errors: -1.73986e-06 -6.16345e-06 0 -0.00100022 -0.000271244 0 
+maxNorm of solution error:0.00100022
+cpuTime :3.89787
+-------------------------------------------------
+Adams-Moulton_190(step_number=375838,order=3):
+10.190 solution errors: -1.73966e-06 -6.16274e-06 0 -0.0010001 -0.000271213 0 
+maxNorm of solution error:0.0010001
+cpuTime :4.03971
+-------------------------------------------------
+Adams-Moulton_190(step_number=375846,order=3):
+10.190 solution errors: -1.73955e-06 -6.16235e-06 0 -0.00100004 -0.000271195 0 
+maxNorm of solution error:0.00100004
+cpuTime :4.09924
+-------------------------------------------------
+Adams-Moulton_190(step_number=375850,order=3):
+10.190 solution errors: -1.7395e-06 -6.16217e-06 0 -0.00100001 -0.000271187 0 
+maxNorm of solution error:0.00100001
+cpuTime :4.14081
+-------------------------------------------------
+Adams-Moulton_190(step_number=375852,order=3):
+10.190 solution errors: -1.73947e-06 -6.16207e-06 0 -0.000999993 -0.000271183 0 
+maxNorm of solution error:0.000999993
+cpuTime :4.19019
+-------------------------------------------------
+Adams-Moulton_190(step_number=375851,order=3):
+10.190 solution errors: -1.73948e-06 -6.16211e-06 0 -0.000999999 -0.000271185 0 
+maxNorm of solution error:0.000999999
+cpuTime :4.18314
+-------------------------------------------------
+Adams-Moulton_191(step_number=500000,order=3):
+10.191 solution errors: 8.25365e-10 -8.30598e-10 -0 3.51317e-09 -1.68593e-09 -0 
+maxNorm of solution error:3.51317e-09
+cpuTime :5.3843
+-------------------------------------------------
+Adams-Moulton_191(step_number=250000,order=3):
+10.191 solution errors: 6.9622e-09 -7.00541e-09 -0 2.96431e-08 -1.42144e-08 -0 
+maxNorm of solution error:2.96431e-08
+cpuTime :2.7895
+-------------------------------------------------
+Adams-Moulton_191(step_number=125000,order=3):
+10.191 solution errors: 5.55992e-08 -5.59422e-08 -0 2.3673e-07 -1.1351e-07 -0 
+maxNorm of solution error:2.3673e-07
+cpuTime :1.49568
+-------------------------------------------------
+Adams-Moulton_191(step_number=62500,order=3):
+10.191 solution errors: 4.44649e-07 -4.47376e-07 -0 1.89321e-06 -9.07802e-07 -0 
+maxNorm of solution error:1.89321e-06
+cpuTime :0.772103
+-------------------------------------------------
+Adams-Moulton_191(step_number=31250,order=3):
+10.191 solution errors: 3.5582e-06 -3.57974e-06 -0 1.51504e-05 -7.26421e-06 -0 
+maxNorm of solution error:1.51504e-05
+cpuTime :0.39638
+-------------------------------------------------
+Adams-Moulton_191(step_number=15625,order=3):
+10.191 solution errors: 2.84814e-05 -2.86472e-05 -0 0.00012129 -5.81344e-05 -0 
+maxNorm of solution error:0.00012129
+cpuTime :0.261117
+-------------------------------------------------
+Adams-Moulton_191(step_number=7812,order=3):
+10.191 solution errors: 0.000228325 -0.000229409 -0 0.00097353 -0.00046535 -0 
+maxNorm of solution error:0.00097353
+cpuTime :0.122948
+-------------------------------------------------
+Adams-Moulton_191(step_number=3906,order=3):
+10.191 solution errors: 0.00184525 -0.00184092 -0 0.00794456 -0.0037153 -0 
+maxNorm of solution error:0.00794456
+cpuTime :0.07203
+-------------------------------------------------
+Adams-Moulton_191(step_number=5859,order=3):
+10.191 solution errors: 0.000542407 -0.000544197 -0 0.00231711 -0.00110292 -0 
+maxNorm of solution error:0.00231711
+cpuTime :0.0971089
+-------------------------------------------------
+Adams-Moulton_191(step_number=6835,order=3):
+10.191 solution errors: 0.000341181 -0.000342619 -0 0.00145572 -0.000694782 -0 
+maxNorm of solution error:0.00145572
+cpuTime :0.10718
+-------------------------------------------------
+Adams-Moulton_191(step_number=7323,order=3):
+10.191 solution errors: 0.000277289 -0.000278541 -0 0.00118265 -0.000564939 -0 
+maxNorm of solution error:0.00118265
+cpuTime :0.112513
+-------------------------------------------------
+Adams-Moulton_191(step_number=7567,order=3):
+10.191 solution errors: 0.000251272 -0.000252438 -0 0.00107152 -0.000512032 -0 
+maxNorm of solution error:0.00107152
+cpuTime :0.123584
+-------------------------------------------------
+Adams-Moulton_191(step_number=7689,order=3):
+10.191 solution errors: 0.000239479 -0.000240603 -0 0.00102116 -0.000488042 -0 
+maxNorm of solution error:0.00102116
+cpuTime :0.124077
+-------------------------------------------------
+Adams-Moulton_191(step_number=7750,order=3):
+10.191 solution errors: 0.000233859 -0.000234963 -0 0.000997157 -0.000476608 -0 
+maxNorm of solution error:0.000997157
+cpuTime :0.125102
+-------------------------------------------------
+Adams-Moulton_191(step_number=7719,order=3):
+10.191 solution errors: 0.000236693 -0.000237807 -0 0.00100926 -0.000482374 -0 
+maxNorm of solution error:0.00100926
+cpuTime :0.118456
+-------------------------------------------------
+Adams-Moulton_191(step_number=7734,order=3):
+10.191 solution errors: 0.000235316 -0.000236425 -0 0.00100338 -0.000479573 -0 
+maxNorm of solution error:0.00100338
+cpuTime :0.124052
+-------------------------------------------------
+Adams-Moulton_191(step_number=7742,order=3):
+10.191 solution errors: 0.000234586 -0.000235693 -0 0.00100026 -0.000478087 -0 
+maxNorm of solution error:0.00100026
+cpuTime :0.120521
+-------------------------------------------------
+Adams-Moulton_191(step_number=7746,order=3):
+10.191 solution errors: 0.000234222 -0.000235327 -0 0.000998708 -0.000477347 -0 
+maxNorm of solution error:0.000998708
+cpuTime :0.145872
+-------------------------------------------------
+Adams-Moulton_191(step_number=7744,order=3):
+10.191 solution errors: 0.000234404 -0.00023551 -0 0.000999484 -0.000477717 -0 
+maxNorm of solution error:0.000999484
+cpuTime :0.125644
+-------------------------------------------------
+Adams-Moulton_191(step_number=7743,order=3):
+10.191 solution errors: 0.000234495 -0.000235601 -0 0.000999873 -0.000477902 -0 
+maxNorm of solution error:0.000999873
+cpuTime :0.126579
+-------------------------------------------------
+Adams-Moulton_190(step_number=1000,order=3):
+10.190 solution errors: 3.62437 -2.71804 0 -1.90544 -5.62122 0 
+maxNorm of solution error:5.62122
+cpuTime :0.12988
+-------------------------------------------------
+Adams-Moulton_191(step_number=1000,order=3):
+10.191 solution errors: 0.194417 0.0064722 -0 0.426675 0.736995 -0 
+maxNorm of solution error:0.736995
+cpuTime :0.0224658
+-------------------------------------------------
+Adams-Moulton_190(step_number=10000,order=3):
+10.190 solution errors: 0.236407 0.260503 0 -0.518799 -2.06205 0 
+maxNorm of solution error:2.06205
+cpuTime :0.148171
+-------------------------------------------------
+Adams-Moulton_191(step_number=10000,order=3):
+10.191 solution errors: 0.000108745 -0.000109327 -0 0.000463328 -0.00022183 -0 
+maxNorm of solution error:0.000463328
+cpuTime :0.15281
+-------------------------------------------------
+Adams-Moulton_190(step_number=100000,order=3):
+10.190 solution errors: -6.63942e-05 -0.000249367 0 -0.0398009 -0.0113915 0 
+maxNorm of solution error:0.0398009
+cpuTime :1.13163
+-------------------------------------------------
+Adams-Moulton_191(step_number=100000,order=3):
+10.191 solution errors: 1.08579e-07 -1.09247e-07 -0 4.62306e-07 -2.21673e-07 -0 
+maxNorm of solution error:4.62306e-07
+cpuTime :1.15454
+-------------------------------------------------
+Adams-Moulton_190(step_number=1000000,order=3):
+10.190 solution errors: -9.78815e-08 -3.45044e-07 0 -5.60218e-05 -1.52248e-05 0 
+maxNorm of solution error:5.60218e-05
+cpuTime :10.7926
+-------------------------------------------------
+Adams-Moulton_191(step_number=1000000,order=3):
+10.191 solution errors: 2.74366e-10 -2.15636e-10 -0 1.18544e-09 -5.26258e-10 -0 
+maxNorm of solution error:1.18544e-09
+cpuTime :10.4418
+-------------------------------------------------
+Adams-Moulton_190(step_number=500000,order=4):
+10.190 solution errors: 6.15368e-08 2.06507e-07 0 3.35706e-05 9.57727e-06 0 
+maxNorm of solution error:3.35706e-05
+cpuTime :7.38176
+-------------------------------------------------
+Adams-Moulton_190(step_number=250000,order=4):
+10.190 solution errors: 9.6722e-07 3.24966e-06 0 0.000528367 0.000150362 0 
+maxNorm of solution error:0.000528367
+cpuTime :3.71653
+-------------------------------------------------
+Adams-Moulton_190(step_number=125000,order=4):
+10.190 solution errors: 1.4932e-05 5.00322e-05 0 0.00816034 0.0022805 0 
+maxNorm of solution error:0.00816034
+cpuTime :1.90909
+-------------------------------------------------
+Adams-Moulton_190(step_number=187500,order=4):
+10.190 solution errors: 3.01969e-06 1.01475e-05 0 0.00165064 0.00046822 0 
+maxNorm of solution error:0.00165064
+cpuTime :3.04868
+-------------------------------------------------
+Adams-Moulton_190(step_number=218750,order=4):
+10.190 solution errors: 1.64141e-06 5.51576e-06 0 0.000896943 0.000254954 0 
+maxNorm of solution error:0.000896943
+cpuTime :3.83839
+-------------------------------------------------
+Adams-Moulton_190(step_number=203125,order=4):
+10.190 solution errors: 2.20066e-06 7.39534e-06 0 0.00120274 0.000341577 0 
+maxNorm of solution error:0.00120274
+cpuTime :3.37168
+-------------------------------------------------
+Adams-Moulton_190(step_number=210937,order=4):
+10.190 solution errors: 1.8955e-06 6.36974e-06 0 0.00103587 0.000294325 0 
+maxNorm of solution error:0.00103587
+cpuTime :3.2648
+-------------------------------------------------
+Adams-Moulton_190(step_number=214843,order=4):
+10.190 solution errors: 1.76276e-06 5.92361e-06 0 0.000963292 0.00027376 0 
+maxNorm of solution error:0.000963292
+cpuTime :3.47409
+-------------------------------------------------
+Adams-Moulton_190(step_number=212890,order=4):
+10.190 solution errors: 1.82762e-06 6.14161e-06 0 0.000998757 0.00028381 0 
+maxNorm of solution error:0.000998757
+cpuTime :3.00595
+-------------------------------------------------
+Adams-Moulton_190(step_number=211913,order=4):
+10.190 solution errors: 1.86119e-06 6.25443e-06 0 0.00101711 0.00028901 0 
+maxNorm of solution error:0.00101711
+cpuTime :3.05187
+-------------------------------------------------
+Adams-Moulton_190(step_number=212401,order=4):
+10.190 solution errors: 1.84433e-06 6.19777e-06 0 0.00100789 0.000286398 0 
+maxNorm of solution error:0.00100789
+cpuTime :3.12398
+-------------------------------------------------
+Adams-Moulton_190(step_number=212645,order=4):
+10.190 solution errors: 1.83597e-06 6.16966e-06 0 0.00100332 0.000285103 0 
+maxNorm of solution error:0.00100332
+cpuTime :3.07326
+-------------------------------------------------
+Adams-Moulton_190(step_number=212767,order=4):
+10.190 solution errors: 1.8318e-06 6.15568e-06 0 0.00100105 0.000284458 0 
+maxNorm of solution error:0.00100105
+cpuTime :3.31585
+-------------------------------------------------
+Adams-Moulton_190(step_number=212828,order=4):
+10.190 solution errors: 1.82973e-06 6.1487e-06 0 0.000999911 0.000284137 0 
+maxNorm of solution error:0.000999911
+cpuTime :3.02233
+-------------------------------------------------
+Adams-Moulton_190(step_number=212797,order=4):
+10.190 solution errors: 1.83078e-06 6.15224e-06 0 0.00100049 0.0002843 0 
+maxNorm of solution error:0.00100049
+cpuTime :3.09417
+-------------------------------------------------
+Adams-Moulton_190(step_number=212812,order=4):
+10.190 solution errors: 1.83027e-06 6.15052e-06 0 0.00100021 0.000284221 0 
+maxNorm of solution error:0.00100021
+cpuTime :3.04834
+-------------------------------------------------
+Adams-Moulton_190(step_number=212820,order=4):
+10.190 solution errors: 1.83e-06 6.14962e-06 0 0.00100006 0.000284179 0 
+maxNorm of solution error:0.00100006
+cpuTime :3.04356
+-------------------------------------------------
+Adams-Moulton_190(step_number=212824,order=4):
+10.190 solution errors: 1.82987e-06 6.14915e-06 0 0.000999984 0.000284158 0 
+maxNorm of solution error:0.000999984
+cpuTime :3.03074
+-------------------------------------------------
+Adams-Moulton_190(step_number=212822,order=4):
+10.190 solution errors: 1.82994e-06 6.14939e-06 0 0.00100002 0.000284168 0 
+maxNorm of solution error:0.00100002
+cpuTime :2.90808
+-------------------------------------------------
+Adams-Moulton_190(step_number=212823,order=4):
+10.190 solution errors: 1.8299e-06 6.14928e-06 0 0.001 0.000284163 0 
+maxNorm of solution error:0.001
+cpuTime :2.9107
+-------------------------------------------------
+Adams-Moulton_191(step_number=500000,order=4):
+10.191 solution errors: -3.21827e-11 3.23799e-11 -0 -1.36675e-10 6.59751e-11 -0 
+maxNorm of solution error:1.36675e-10
+cpuTime :6.53076
+-------------------------------------------------
+Adams-Moulton_191(step_number=250000,order=4):
+10.191 solution errors: 5.61684e-12 -5.99316e-12 -0 2.31988e-11 -1.22371e-11 -0 
+maxNorm of solution error:2.31988e-11
+cpuTime :3.00974
+-------------------------------------------------
+Adams-Moulton_191(step_number=125000,order=4):
+10.191 solution errors: 1.94566e-11 -2.24788e-11 -0 8.38755e-11 -3.85067e-11 -0 
+maxNorm of solution error:8.38755e-11
+cpuTime :1.66031
+-------------------------------------------------
+Adams-Moulton_191(step_number=62500,order=4):
+10.191 solution errors: -4.80078e-11 1.62079e-12 -0 -2.16924e-10 8.66012e-11 -0 
+maxNorm of solution error:2.16924e-10
+cpuTime :0.947079
+-------------------------------------------------
+Adams-Moulton_191(step_number=31250,order=4):
+10.191 solution errors: -4.35028e-10 -3.02661e-10 -0 -1.99887e-09 7.59973e-10 -0 
+maxNorm of solution error:1.99887e-09
+cpuTime :0.467754
+-------------------------------------------------
+Adams-Moulton_191(step_number=15625,order=4):
+10.191 solution errors: -4.6971e-09 -7.11427e-09 -0 -2.23116e-08 7.57342e-09 -0 
+maxNorm of solution error:2.23116e-08
+cpuTime :0.253416
+-------------------------------------------------
+Adams-Moulton_191(step_number=7812,order=4):
+10.191 solution errors: 2.54454e-09 -1.9169e-07 -0 -2.51478e-08 -3.64168e-08 -0 
+maxNorm of solution error:1.9169e-07
+cpuTime :0.136202
+-------------------------------------------------
+Adams-Moulton_191(step_number=3906,order=4):
+10.191 solution errors: 2.51775e-06 -5.54415e-06 -0 1.01778e-05 -5.60554e-06 -0 
+maxNorm of solution error:1.01778e-05
+cpuTime :0.151543
+-------------------------------------------------
+Adams-Moulton_191(step_number=1953,order=4):
+10.191 solution errors: 0.000119101 -0.000167229 -0 0.000499864 -0.00024912 -0 
+maxNorm of solution error:0.000499864
+cpuTime :0.0416713
+-------------------------------------------------
+Adams-Moulton_191(step_number=976,order=4):
+10.191 solution errors: 0.0045008 -0.00516037 -0 0.0195459 -0.008862 -0 
+maxNorm of solution error:0.0195459
+cpuTime :0.0252593
+-------------------------------------------------
+Adams-Moulton_191(step_number=1464,order=4):
+10.191 solution errors: 0.000543424 -0.000693634 -0 0.0022991 -0.00112059 -0 
+maxNorm of solution error:0.0022991
+cpuTime :0.0334568
+-------------------------------------------------
+Adams-Moulton_191(step_number=1708,order=4):
+10.191 solution errors: 0.000242099 -0.000323998 -0 0.00101978 -0.000503133 -0 
+maxNorm of solution error:0.00101978
+cpuTime :0.0408935
+-------------------------------------------------
+Adams-Moulton_191(step_number=1830,order=4):
+10.191 solution errors: 0.000168188 -0.000230501 -0 0.000707141 -0.000350683 -0 
+maxNorm of solution error:0.000707141
+cpuTime :0.0422373
+-------------------------------------------------
+Adams-Moulton_191(step_number=1769,order=4):
+10.191 solution errors: 0.000201197 -0.000272474 -0 0.000846697 -0.000418831 -0 
+maxNorm of solution error:0.000846697
+cpuTime :0.0391406
+-------------------------------------------------
+Adams-Moulton_191(step_number=1738,order=4):
+10.191 solution errors: 0.00022087 -0.000297316 -0 0.000929926 -0.000459396 -0 
+maxNorm of solution error:0.000929926
+cpuTime :0.0417469
+-------------------------------------------------
+Adams-Moulton_191(step_number=1723,order=4):
+10.191 solution errors: 0.000231198 -0.000310312 -0 0.000973635 -0.000480679 -0 
+maxNorm of solution error:0.000973635
+cpuTime :0.040059
+-------------------------------------------------
+Adams-Moulton_191(step_number=1715,order=4):
+10.191 solution errors: 0.000236938 -0.000317522 -0 0.000997934 -0.000492504 -0 
+maxNorm of solution error:0.000997934
+cpuTime :0.0400893
+-------------------------------------------------
+Adams-Moulton_191(step_number=1711,order=4):
+10.191 solution errors: 0.000239871 -0.000321203 -0 0.00101035 -0.000498545 -0 
+maxNorm of solution error:0.00101035
+cpuTime :0.0392517
+-------------------------------------------------
+Adams-Moulton_191(step_number=1713,order=4):
+10.191 solution errors: 0.000238399 -0.000319356 -0 0.00100412 -0.000495514 -0 
+maxNorm of solution error:0.00100412
+cpuTime :0.0398746
+-------------------------------------------------
+Adams-Moulton_191(step_number=1714,order=4):
+10.191 solution errors: 0.000237668 -0.000318438 -0 0.00100102 -0.000494006 -0 
+maxNorm of solution error:0.00100102
+cpuTime :0.0382559
+-------------------------------------------------
+Adams-Moulton_190(step_number=1000,order=4):
+10.190 solution errors: -8.30294 -38.3338 0 -38.9889 4.89828 0 
+maxNorm of solution error:38.9889
+cpuTime :18.5411
+-------------------------------------------------
+Adams-Moulton_191(step_number=1000,order=4):
+10.191 solution errors: 0.00396244 -0.00457415 -0 0.0171554 -0.00784582 -0 
+maxNorm of solution error:0.0171554
+cpuTime :0.024116
+-------------------------------------------------
+Adams-Moulton_190(step_number=10000,order=4):
+10.190 solution errors: -0.00731397 -0.00507496 0 -0.27895 -0.69777 0 
+maxNorm of solution error:0.69777
+cpuTime :0.157937
+-------------------------------------------------
+Adams-Moulton_191(step_number=10000,order=4):
+10.191 solution errors: -1.16845e-08 -5.87447e-08 -0 -6.33181e-08 1.20566e-08 -0 
+maxNorm of solution error:6.33181e-08
+cpuTime :0.194305
+-------------------------------------------------
+Adams-Moulton_190(step_number=100000,order=4):
+10.190 solution errors: 3.59269e-05 0.000119507 0 0.0195836 0.0053412 0 
+maxNorm of solution error:0.0195836
+cpuTime :1.30544
+-------------------------------------------------
+Adams-Moulton_191(step_number=100000,order=4):
+10.191 solution errors: 1.66702e-11 -2.36966e-11 -0 7.22629e-11 -3.26085e-11 -0 
+maxNorm of solution error:7.22629e-11
+cpuTime :1.33826
+-------------------------------------------------
+Adams-Moulton_190(step_number=1000000,order=4):
+10.190 solution errors: 3.87738e-09 1.30019e-08 0 2.11366e-06 6.03498e-07 0 
+maxNorm of solution error:2.11366e-06
+cpuTime :12.7917
+-------------------------------------------------
+Adams-Moulton_191(step_number=1000000,order=4):
+10.191 solution errors: 1.82568e-10 -1.18001e-10 -0 7.95725e-10 -3.36706e-10 -0 
+maxNorm of solution error:7.95725e-10
+cpuTime :12.2786
+-------------------------------------------------
+Adams-Moulton_190(step_number=500000,order=5):
+10.190 solution errors: -6.22831e-11 -1.45717e-10 0 -2.3954e-08 -9.7021e-09 0 
+maxNorm of solution error:2.3954e-08
+cpuTime :7.37738
+-------------------------------------------------
+Adams-Moulton_190(step_number=250000,order=5):
+10.190 solution errors: -4.91215e-09 -1.43625e-08 0 -2.34382e-06 -7.64585e-07 0 
+maxNorm of solution error:2.34382e-06
+cpuTime :3.72441
+-------------------------------------------------
+Adams-Moulton_190(step_number=125000,order=5):
+10.190 solution errors: -3.21516e-07 -1.00851e-06 0 -0.000164239 -5.00467e-05 0 
+maxNorm of solution error:0.000164239
+cpuTime :1.81074
+-------------------------------------------------
+Adams-Moulton_190(step_number=62500,order=5):
+10.190 solution errors: -1.80366e-05 -5.90991e-05 0 -0.00957465 -0.0028659 0 
+maxNorm of solution error:0.00957465
+cpuTime :0.971856
+-------------------------------------------------
+Adams-Moulton_190(step_number=93750,order=5):
+10.190 solution errors: -1.75509e-06 -5.6029e-06 0 -0.000911713 -0.000273617 0 
+maxNorm of solution error:0.000911713
+cpuTime :1.29653
+-------------------------------------------------
+Adams-Moulton_190(step_number=78125,order=5):
+10.190 solution errors: -5.06184e-06 -1.6329e-05 0 -0.00265436 -0.000792126 0 
+maxNorm of solution error:0.00265436
+cpuTime :1.08991
+-------------------------------------------------
+Adams-Moulton_190(step_number=85937,order=5):
+10.190 solution errors: -2.91524e-06 -9.35256e-06 0 -0.00152126 -0.00045508 0 
+maxNorm of solution error:0.00152126
+cpuTime :1.23359
+-------------------------------------------------
+Adams-Moulton_190(step_number=89843,order=5):
+10.190 solution errors: -2.25049e-06 -7.20179e-06 0 -0.00117168 -0.000351046 0 
+maxNorm of solution error:0.00117168
+cpuTime :1.2529
+-------------------------------------------------
+Adams-Moulton_190(step_number=91796,order=5):
+10.190 solution errors: -1.98503e-06 -6.34456e-06 0 -0.00103231 -0.000309545 0 
+maxNorm of solution error:0.00103231
+cpuTime :1.25979
+-------------------------------------------------
+Adams-Moulton_190(step_number=92773,order=5):
+10.190 solution errors: -1.86596e-06 -5.96039e-06 0 -0.000969845 -0.000290938 0 
+maxNorm of solution error:0.000969845
+cpuTime :1.2792
+-------------------------------------------------
+Adams-Moulton_190(step_number=92284,order=5):
+10.190 solution errors: -1.92449e-06 -6.1492e-06 0 -0.00100055 -0.000300083 0 
+maxNorm of solution error:0.00100055
+cpuTime :1.27852
+-------------------------------------------------
+Adams-Moulton_190(step_number=92528,order=5):
+10.190 solution errors: -1.89502e-06 -6.05415e-06 0 -0.00098509 -0.000295479 0 
+maxNorm of solution error:0.00098509
+cpuTime :1.26003
+-------------------------------------------------
+Adams-Moulton_190(step_number=92406,order=5):
+10.190 solution errors: -1.90969e-06 -6.10146e-06 0 -0.000992783 -0.000297771 0 
+maxNorm of solution error:0.000992783
+cpuTime :1.27655
+-------------------------------------------------
+Adams-Moulton_190(step_number=92345,order=5):
+10.190 solution errors: -1.91707e-06 -6.12528e-06 0 -0.000996656 -0.000298925 0 
+maxNorm of solution error:0.000996656
+cpuTime :1.26783
+-------------------------------------------------
+Adams-Moulton_190(step_number=92314,order=5):
+10.190 solution errors: -1.92084e-06 -6.13742e-06 0 -0.00099863 -0.000299513 0 
+maxNorm of solution error:0.00099863
+cpuTime :1.32488
+-------------------------------------------------
+Adams-Moulton_190(step_number=92299,order=5):
+10.190 solution errors: -1.92266e-06 -6.14331e-06 0 -0.000999588 -0.000299798 0 
+maxNorm of solution error:0.000999588
+cpuTime :1.26032
+-------------------------------------------------
+Adams-Moulton_190(step_number=92291,order=5):
+10.190 solution errors: -1.92364e-06 -6.14646e-06 0 -0.0010001 -0.00029995 0 
+maxNorm of solution error:0.0010001
+cpuTime :1.26513
+-------------------------------------------------
+Adams-Moulton_190(step_number=92295,order=5):
+10.190 solution errors: -1.92315e-06 -6.14487e-06 0 -0.000999842 -0.000299874 0 
+maxNorm of solution error:0.000999842
+cpuTime :1.27536
+-------------------------------------------------
+Adams-Moulton_190(step_number=92293,order=5):
+10.190 solution errors: -1.92339e-06 -6.14567e-06 0 -0.000999971 -0.000299912 0 
+maxNorm of solution error:0.000999971
+cpuTime :1.26825
+-------------------------------------------------
+Adams-Moulton_190(step_number=92292,order=5):
+10.190 solution errors: -1.92351e-06 -6.14606e-06 0 -0.00100003 -0.000299931 0 
+maxNorm of solution error:0.00100003
+cpuTime :1.27054
+-------------------------------------------------
+Adams-Moulton_191(step_number=500000,order=5):
+10.191 solution errors: -2.27532e-11 2.28794e-11 -0 -9.69195e-11 4.63199e-11 -0 
+maxNorm of solution error:9.69195e-11
+cpuTime :6.52563
+-------------------------------------------------
+Adams-Moulton_191(step_number=250000,order=5):
+10.191 solution errors: 5.17871e-12 -5.0762e-12 -0 2.26424e-11 -9.85752e-12 -0 
+maxNorm of solution error:2.26424e-11
+cpuTime :3.53627
+-------------------------------------------------
+Adams-Moulton_191(step_number=125000,order=5):
+10.191 solution errors: 1.48845e-11 -1.51938e-11 -0 6.40808e-11 -2.9798e-11 -0 
+maxNorm of solution error:6.40808e-11
+cpuTime :1.86447
+-------------------------------------------------
+Adams-Moulton_191(step_number=62500,order=5):
+10.191 solution errors: -9.13242e-12 9.20853e-12 -0 -3.98441e-11 1.76909e-11 -0 
+maxNorm of solution error:3.98441e-11
+cpuTime :0.982013
+-------------------------------------------------
+Adams-Moulton_191(step_number=31250,order=5):
+10.191 solution errors: -1.30183e-10 1.30522e-10 -0 -5.57391e-10 2.62574e-10 -0 
+maxNorm of solution error:5.57391e-10
+cpuTime :0.622087
+-------------------------------------------------
+Adams-Moulton_191(step_number=15625,order=5):
+10.191 solution errors: -4.2267e-09 4.23736e-09 -0 -1.80506e-08 8.57488e-09 -0 
+maxNorm of solution error:1.80506e-08
+cpuTime :0.292653
+-------------------------------------------------
+Adams-Moulton_191(step_number=7812,order=5):
+10.191 solution errors: -1.35144e-07 1.35315e-07 -0 -5.77186e-07 2.74141e-07 -0 
+maxNorm of solution error:5.77186e-07
+cpuTime :0.23214
+-------------------------------------------------
+Adams-Moulton_191(step_number=3906,order=5):
+10.191 solution errors: -4.32179e-06 4.31662e-06 -0 -1.846e-05 8.76479e-06 -0 
+maxNorm of solution error:1.846e-05
+cpuTime :0.0966789
+-------------------------------------------------
+Adams-Moulton_191(step_number=1953,order=5):
+10.191 solution errors: -0.000136018 0.000135243 -0 -0.000580721 0.000275954 -0 
+maxNorm of solution error:0.000580721
+cpuTime :0.0515969
+-------------------------------------------------
+Adams-Moulton_191(step_number=976,order=5):
+10.191 solution errors: -0.00392023 0.00390427 -0 -0.0164228 0.00811401 -0 
+maxNorm of solution error:0.0164228
+cpuTime :0.0365738
+-------------------------------------------------
+Adams-Moulton_191(step_number=1464,order=5):
+10.191 solution errors: -0.000561295 0.000557008 -0 -0.00239144 0.00114138 -0 
+maxNorm of solution error:0.00239144
+cpuTime :0.0451051
+-------------------------------------------------
+Adams-Moulton_191(step_number=1708,order=5):
+10.191 solution errors: -0.000263544 0.000261777 -0 -0.0011245 0.000535034 -0 
+maxNorm of solution error:0.0011245
+cpuTime :0.0475762
+-------------------------------------------------
+Adams-Moulton_191(step_number=1830,order=5):
+10.191 solution errors: -0.000187572 0.00018641 -0 -0.000800633 0.000380646 -0 
+maxNorm of solution error:0.000800633
+cpuTime :0.0558292
+-------------------------------------------------
+Adams-Moulton_191(step_number=1769,order=5):
+10.191 solution errors: -0.00022171 0.00022028 -0 -0.000946194 0.000450003 -0 
+maxNorm of solution error:0.000946194
+cpuTime :0.0463551
+-------------------------------------------------
+Adams-Moulton_191(step_number=1738,order=5):
+10.191 solution errors: -0.00024189 0.000240299 -0 -0.00103222 0.000491016 -0 
+maxNorm of solution error:0.00103222
+cpuTime :0.054592
+-------------------------------------------------
+Adams-Moulton_191(step_number=1753,order=5):
+10.191 solution errors: -0.000231863 0.000230352 -0 -0.000989476 0.000470637 -0 
+maxNorm of solution error:0.000989476
+cpuTime :0.0482616
+-------------------------------------------------
+Adams-Moulton_191(step_number=1745,order=5):
+10.191 solution errors: -0.000237148 0.000235594 -0 -0.001012 0.000481377 -0 
+maxNorm of solution error:0.001012
+cpuTime :0.0460913
+-------------------------------------------------
+Adams-Moulton_191(step_number=1749,order=5):
+10.191 solution errors: -0.000234488 0.000232955 -0 -0.00100066 0.00047597 -0 
+maxNorm of solution error:0.00100066
+cpuTime :0.0425854
+-------------------------------------------------
+Adams-Moulton_191(step_number=1751,order=5):
+10.191 solution errors: -0.000233171 0.000231649 -0 -0.000995051 0.000473295 -0 
+maxNorm of solution error:0.000995051
+cpuTime :0.0469911
+-------------------------------------------------
+Adams-Moulton_191(step_number=1750,order=5):
+10.191 solution errors: -0.000233828 0.000232301 -0 -0.000997853 0.00047463 -0 
+maxNorm of solution error:0.000997853
+cpuTime :0.0480614
+-------------------------------------------------
+Adams-Moulton_190(step_number=1000,order=5):
+10.190 solution errors: 5.49203 -2.75907 0 -1.89308 -7.03331 0 
+maxNorm of solution error:7.03331
+cpuTime :1.15909
+-------------------------------------------------
+Adams-Moulton_191(step_number=1000,order=5):
+10.191 solution errors: -0.00349943 0.00348254 -0 -0.0146909 0.00722803 -0 
+maxNorm of solution error:0.0146909
+cpuTime :0.0395236
+-------------------------------------------------
+Adams-Moulton_190(step_number=10000,order=5):
+10.190 solution errors: 0.0339848 0.000761243 0 -0.984908 -1.85678 0 
+maxNorm of solution error:1.85678
+cpuTime :0.200394
+-------------------------------------------------
+Adams-Moulton_191(step_number=10000,order=5):
+10.191 solution errors: -3.93018e-08 3.93729e-08 -0 -1.67848e-07 7.97294e-08 -0 
+maxNorm of solution error:1.67848e-07
+cpuTime :0.208719
+-------------------------------------------------
+Adams-Moulton_190(step_number=100000,order=5):
+10.190 solution errors: -1.20227e-06 -3.82389e-06 0 -0.00062237 -0.000187317 0 
+maxNorm of solution error:0.00062237
+cpuTime :1.50754
+-------------------------------------------------
+Adams-Moulton_191(step_number=100000,order=5):
+10.191 solution errors: 1.60023e-11 -1.61713e-11 -0 7.02359e-11 -3.06377e-11 -0 
+maxNorm of solution error:7.02359e-11
+cpuTime :1.73662
+-------------------------------------------------
+Adams-Moulton_190(step_number=1000000,order=5):
+10.190 solution errors: 1.89238e-12 1.38405e-11 0 2.21415e-09 2.94238e-10 0 
+maxNorm of solution error:2.21415e-09
+cpuTime :14.5708
+-------------------------------------------------
+Adams-Moulton_191(step_number=1000000,order=5):
+10.191 solution errors: 1.65708e-10 -1.07465e-10 -0 7.22166e-10 -3.04632e-10 -0 
+maxNorm of solution error:7.22166e-10
+cpuTime :14.4161
+-------------------------------------------------
+Total elapsed time: 889.817 seconds
+Adams-Moulton_190_stepnumber=1000000_order=2: 18.5188 seconds
+Adams-Moulton_190_stepnumber=1000000_order=3: 10.7926 seconds
+Adams-Moulton_190_stepnumber=1000000_order=4: 12.7917 seconds
+Adams-Moulton_190_stepnumber=1000000_order=5: 14.5708 seconds
+Adams-Moulton_190_stepnumber=100000_order=2: 1.01609 seconds
+Adams-Moulton_190_stepnumber=100000_order=3: 1.13163 seconds
+Adams-Moulton_190_stepnumber=100000_order=4: 1.30544 seconds
+Adams-Moulton_190_stepnumber=100000_order=5: 1.50754 seconds
+Adams-Moulton_190_stepnumber=10000_order=2: 0.180103 seconds
+Adams-Moulton_190_stepnumber=10000_order=3: 0.148171 seconds
+Adams-Moulton_190_stepnumber=10000_order=4: 0.157937 seconds
+Adams-Moulton_190_stepnumber=10000_order=5: 0.200394 seconds
+Adams-Moulton_190_stepnumber=1000_order=2: 19.2926 seconds
+Adams-Moulton_190_stepnumber=1000_order=3: 0.12988 seconds
+Adams-Moulton_190_stepnumber=1000_order=4: 18.5411 seconds
+Adams-Moulton_190_stepnumber=1000_order=5: 1.15909 seconds
+Adams-Moulton_190_stepnumber=125000_order=4: 1.90909 seconds
+Adams-Moulton_190_stepnumber=125000_order=5: 1.81074 seconds
+Adams-Moulton_190_stepnumber=187500_order=4: 3.04868 seconds
+Adams-Moulton_190_stepnumber=203125_order=4: 3.37168 seconds
+Adams-Moulton_190_stepnumber=210937_order=4: 3.2648 seconds
+Adams-Moulton_190_stepnumber=211913_order=4: 3.05187 seconds
+Adams-Moulton_190_stepnumber=212401_order=4: 3.12398 seconds
+Adams-Moulton_190_stepnumber=212645_order=4: 3.07326 seconds
+Adams-Moulton_190_stepnumber=212767_order=4: 3.31585 seconds
+Adams-Moulton_190_stepnumber=212797_order=4: 3.09417 seconds
+Adams-Moulton_190_stepnumber=212812_order=4: 3.04834 seconds
+Adams-Moulton_190_stepnumber=212820_order=4: 3.04356 seconds
+Adams-Moulton_190_stepnumber=212822_order=4: 2.90808 seconds
+Adams-Moulton_190_stepnumber=212823_order=4: 2.9107 seconds
+Adams-Moulton_190_stepnumber=212824_order=4: 3.03074 seconds
+Adams-Moulton_190_stepnumber=212828_order=4: 3.02233 seconds
+Adams-Moulton_190_stepnumber=212890_order=4: 3.00595 seconds
+Adams-Moulton_190_stepnumber=214843_order=4: 3.47409 seconds
+Adams-Moulton_190_stepnumber=218750_order=4: 3.83839 seconds
+Adams-Moulton_190_stepnumber=250000_order=3: 2.80291 seconds
+Adams-Moulton_190_stepnumber=250000_order=4: 3.71653 seconds
+Adams-Moulton_190_stepnumber=250000_order=5: 3.72441 seconds
+Adams-Moulton_190_stepnumber=375000_order=3: 4.14006 seconds
+Adams-Moulton_190_stepnumber=375488_order=3: 3.8895 seconds
+Adams-Moulton_190_stepnumber=375732_order=3: 3.95705 seconds
+Adams-Moulton_190_stepnumber=375793_order=3: 3.88682 seconds
+Adams-Moulton_190_stepnumber=375823_order=3: 3.89787 seconds
+Adams-Moulton_190_stepnumber=375838_order=3: 4.03971 seconds
+Adams-Moulton_190_stepnumber=375846_order=3: 4.09924 seconds
+Adams-Moulton_190_stepnumber=375850_order=3: 4.14081 seconds
+Adams-Moulton_190_stepnumber=375851_order=3: 4.18314 seconds
+Adams-Moulton_190_stepnumber=375852_order=3: 4.19019 seconds
+Adams-Moulton_190_stepnumber=375854_order=3: 3.94736 seconds
+Adams-Moulton_190_stepnumber=375976_order=3: 3.92801 seconds
+Adams-Moulton_190_stepnumber=376953_order=3: 3.88866 seconds
+Adams-Moulton_190_stepnumber=378906_order=3: 3.90474 seconds
+Adams-Moulton_190_stepnumber=382812_order=3: 3.9784 seconds
+Adams-Moulton_190_stepnumber=390625_order=3: 4.02988 seconds
+Adams-Moulton_190_stepnumber=406250_order=3: 4.17191 seconds
+Adams-Moulton_190_stepnumber=437500_order=3: 4.70994 seconds
+Adams-Moulton_190_stepnumber=500000_order=2: 5.99201 seconds
+Adams-Moulton_190_stepnumber=500000_order=3: 5.41277 seconds
+Adams-Moulton_190_stepnumber=500000_order=4: 7.38176 seconds
+Adams-Moulton_190_stepnumber=500000_order=5: 7.37738 seconds
+Adams-Moulton_190_stepnumber=62500_order=5: 0.971856 seconds
+Adams-Moulton_190_stepnumber=750000_order=2: 8.97002 seconds
+Adams-Moulton_190_stepnumber=78125_order=5: 1.08991 seconds
+Adams-Moulton_190_stepnumber=85937_order=5: 1.23359 seconds
+Adams-Moulton_190_stepnumber=875000_order=2: 11.6234 seconds
+Adams-Moulton_190_stepnumber=89843_order=5: 1.2529 seconds
+Adams-Moulton_190_stepnumber=91796_order=5: 1.25979 seconds
+Adams-Moulton_190_stepnumber=92284_order=5: 1.27852 seconds
+Adams-Moulton_190_stepnumber=92291_order=5: 1.26513 seconds
+Adams-Moulton_190_stepnumber=92292_order=5: 1.27054 seconds
+Adams-Moulton_190_stepnumber=92293_order=5: 1.26825 seconds
+Adams-Moulton_190_stepnumber=92295_order=5: 1.27536 seconds
+Adams-Moulton_190_stepnumber=92299_order=5: 1.26032 seconds
+Adams-Moulton_190_stepnumber=92314_order=5: 1.32488 seconds
+Adams-Moulton_190_stepnumber=92345_order=5: 1.26783 seconds
+Adams-Moulton_190_stepnumber=92406_order=5: 1.27655 seconds
+Adams-Moulton_190_stepnumber=92528_order=5: 1.26003 seconds
+Adams-Moulton_190_stepnumber=92773_order=5: 1.2792 seconds
+Adams-Moulton_190_stepnumber=937500_order=2: 9.57736 seconds
+Adams-Moulton_190_stepnumber=93750_order=5: 1.29653 seconds
+Adams-Moulton_190_stepnumber=968750_order=2: 11.9486 seconds
+Adams-Moulton_190_stepnumber=984375_order=2: 10.7002 seconds
+Adams-Moulton_190_stepnumber=992188_order=2: 9.55466 seconds
+Adams-Moulton_190_stepnumber=996094_order=2: 11.0899 seconds
+Adams-Moulton_190_stepnumber=998047_order=2: 13.9514 seconds
+Adams-Moulton_190_stepnumber=999024_order=2: 14.6149 seconds
+Adams-Moulton_190_stepnumber=999512_order=2: 11.9441 seconds
+Adams-Moulton_190_stepnumber=999756_order=2: 11.5909 seconds
+Adams-Moulton_190_stepnumber=999878_order=2: 12.3935 seconds
+Adams-Moulton_190_stepnumber=999939_order=2: 11.9287 seconds
+Adams-Moulton_190_stepnumber=999970_order=2: 9.78414 seconds
+Adams-Moulton_190_stepnumber=999985_order=2: 8.93976 seconds
+Adams-Moulton_190_stepnumber=999993_order=2: 9.16737 seconds
+Adams-Moulton_190_stepnumber=999997_order=2: 8.89277 seconds
+Adams-Moulton_190_stepnumber=999999_order=2: 9.03535 seconds
+Adams-Moulton_191_stepnumber=1000000_order=2: 9.0922 seconds
+Adams-Moulton_191_stepnumber=1000000_order=3: 10.4418 seconds
+Adams-Moulton_191_stepnumber=1000000_order=4: 12.2786 seconds
+Adams-Moulton_191_stepnumber=1000000_order=5: 14.4161 seconds
+Adams-Moulton_191_stepnumber=100000_order=2: 1.07538 seconds
+Adams-Moulton_191_stepnumber=100000_order=3: 1.15454 seconds
+Adams-Moulton_191_stepnumber=100000_order=4: 1.33826 seconds
+Adams-Moulton_191_stepnumber=100000_order=5: 1.73662 seconds
+Adams-Moulton_191_stepnumber=10000_order=2: 0.141437 seconds
+Adams-Moulton_191_stepnumber=10000_order=3: 0.15281 seconds
+Adams-Moulton_191_stepnumber=10000_order=4: 0.194305 seconds
+Adams-Moulton_191_stepnumber=10000_order=5: 0.208719 seconds
+Adams-Moulton_191_stepnumber=1000_order=2: 0.02282 seconds
+Adams-Moulton_191_stepnumber=1000_order=3: 0.0224658 seconds
+Adams-Moulton_191_stepnumber=1000_order=4: 0.024116 seconds
+Adams-Moulton_191_stepnumber=1000_order=5: 0.0395236 seconds
+Adams-Moulton_191_stepnumber=11718_order=2: 0.197893 seconds
+Adams-Moulton_191_stepnumber=11840_order=2: 0.171776 seconds
+Adams-Moulton_191_stepnumber=11901_order=2: 0.168359 seconds
+Adams-Moulton_191_stepnumber=11902_order=2: 0.183787 seconds
+Adams-Moulton_191_stepnumber=11904_order=2: 0.191343 seconds
+Adams-Moulton_191_stepnumber=11908_order=2: 0.164421 seconds
+Adams-Moulton_191_stepnumber=11916_order=2: 0.171802 seconds
+Adams-Moulton_191_stepnumber=11931_order=2: 0.171555 seconds
+Adams-Moulton_191_stepnumber=11962_order=2: 0.174474 seconds
+Adams-Moulton_191_stepnumber=12206_order=2: 0.170388 seconds
+Adams-Moulton_191_stepnumber=125000_order=2: 1.30638 seconds
+Adams-Moulton_191_stepnumber=125000_order=3: 1.49568 seconds
+Adams-Moulton_191_stepnumber=125000_order=4: 1.66031 seconds
+Adams-Moulton_191_stepnumber=125000_order=5: 1.86447 seconds
+Adams-Moulton_191_stepnumber=12694_order=2: 0.181672 seconds
+Adams-Moulton_191_stepnumber=13671_order=2: 0.193063 seconds
+Adams-Moulton_191_stepnumber=1464_order=4: 0.0334568 seconds
+Adams-Moulton_191_stepnumber=1464_order=5: 0.0451051 seconds
+Adams-Moulton_191_stepnumber=15625_order=2: 0.213018 seconds
+Adams-Moulton_191_stepnumber=15625_order=3: 0.261117 seconds
+Adams-Moulton_191_stepnumber=15625_order=4: 0.253416 seconds
+Adams-Moulton_191_stepnumber=15625_order=5: 0.292653 seconds
+Adams-Moulton_191_stepnumber=1708_order=4: 0.0408935 seconds
+Adams-Moulton_191_stepnumber=1708_order=5: 0.0475762 seconds
+Adams-Moulton_191_stepnumber=1711_order=4: 0.0392517 seconds
+Adams-Moulton_191_stepnumber=1713_order=4: 0.0398746 seconds
+Adams-Moulton_191_stepnumber=1714_order=4: 0.0382559 seconds
+Adams-Moulton_191_stepnumber=1715_order=4: 0.0400893 seconds
+Adams-Moulton_191_stepnumber=1723_order=4: 0.040059 seconds
+Adams-Moulton_191_stepnumber=1738_order=4: 0.0417469 seconds
+Adams-Moulton_191_stepnumber=1738_order=5: 0.054592 seconds
+Adams-Moulton_191_stepnumber=1745_order=5: 0.0460913 seconds
+Adams-Moulton_191_stepnumber=1749_order=5: 0.0425854 seconds
+Adams-Moulton_191_stepnumber=1750_order=5: 0.0480614 seconds
+Adams-Moulton_191_stepnumber=1751_order=5: 0.0469911 seconds
+Adams-Moulton_191_stepnumber=1753_order=5: 0.0482616 seconds
+Adams-Moulton_191_stepnumber=1769_order=4: 0.0391406 seconds
+Adams-Moulton_191_stepnumber=1769_order=5: 0.0463551 seconds
+Adams-Moulton_191_stepnumber=1830_order=4: 0.0422373 seconds
+Adams-Moulton_191_stepnumber=1830_order=5: 0.0558292 seconds
+Adams-Moulton_191_stepnumber=1953_order=4: 0.0416713 seconds
+Adams-Moulton_191_stepnumber=1953_order=5: 0.0515969 seconds
+Adams-Moulton_191_stepnumber=250000_order=2: 2.84462 seconds
+Adams-Moulton_191_stepnumber=250000_order=3: 2.7895 seconds
+Adams-Moulton_191_stepnumber=250000_order=4: 3.00974 seconds
+Adams-Moulton_191_stepnumber=250000_order=5: 3.53627 seconds
+Adams-Moulton_191_stepnumber=31250_order=2: 0.373244 seconds
+Adams-Moulton_191_stepnumber=31250_order=3: 0.39638 seconds
+Adams-Moulton_191_stepnumber=31250_order=4: 0.467754 seconds
+Adams-Moulton_191_stepnumber=31250_order=5: 0.622087 seconds
+Adams-Moulton_191_stepnumber=3906_order=3: 0.07203 seconds
+Adams-Moulton_191_stepnumber=3906_order=4: 0.151543 seconds
+Adams-Moulton_191_stepnumber=3906_order=5: 0.0966789 seconds
+Adams-Moulton_191_stepnumber=500000_order=2: 4.52307 seconds
+Adams-Moulton_191_stepnumber=500000_order=3: 5.3843 seconds
+Adams-Moulton_191_stepnumber=500000_order=4: 6.53076 seconds
+Adams-Moulton_191_stepnumber=500000_order=5: 6.52563 seconds
+Adams-Moulton_191_stepnumber=5859_order=3: 0.0971089 seconds
+Adams-Moulton_191_stepnumber=62500_order=2: 0.713742 seconds
+Adams-Moulton_191_stepnumber=62500_order=3: 0.772103 seconds
+Adams-Moulton_191_stepnumber=62500_order=4: 0.947079 seconds
+Adams-Moulton_191_stepnumber=62500_order=5: 0.982013 seconds
+Adams-Moulton_191_stepnumber=6835_order=3: 0.10718 seconds
+Adams-Moulton_191_stepnumber=7323_order=3: 0.112513 seconds
+Adams-Moulton_191_stepnumber=7567_order=3: 0.123584 seconds
+Adams-Moulton_191_stepnumber=7689_order=3: 0.124077 seconds
+Adams-Moulton_191_stepnumber=7719_order=3: 0.118456 seconds
+Adams-Moulton_191_stepnumber=7734_order=3: 0.124052 seconds
+Adams-Moulton_191_stepnumber=7742_order=3: 0.120521 seconds
+Adams-Moulton_191_stepnumber=7743_order=3: 0.126579 seconds
+Adams-Moulton_191_stepnumber=7744_order=3: 0.125644 seconds
+Adams-Moulton_191_stepnumber=7746_order=3: 0.145872 seconds
+Adams-Moulton_191_stepnumber=7750_order=3: 0.125102 seconds
+Adams-Moulton_191_stepnumber=7812_order=2: 0.158333 seconds
+Adams-Moulton_191_stepnumber=7812_order=3: 0.122948 seconds
+Adams-Moulton_191_stepnumber=7812_order=4: 0.136202 seconds
+Adams-Moulton_191_stepnumber=7812_order=5: 0.23214 seconds
+Adams-Moulton_191_stepnumber=976_order=4: 0.0252593 seconds
+Adams-Moulton_191_stepnumber=976_order=5: 0.0365738 seconds

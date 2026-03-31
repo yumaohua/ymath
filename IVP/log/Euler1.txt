@@ -1,0 +1,13 @@
+Euler_190(step_number=24000,order=1):
+10.190 solution errors: -0.396159 -1.8898 0 -1.85136 -1.0348 0 
+maxNorm of solution error:1.8898
+cpuTime :0.0419983
+-------------------------------------------------
+Euler_191(step_number=24000,order=1):
+10.191 solution errors: 1.62391 0.737114 -0 -1.16978 -1.24632 -0 
+maxNorm of solution error:1.62391
+cpuTime :0.0465284
+-------------------------------------------------
+Total elapsed time: 0.669997 seconds
+Euler_190_stepnumber=24000_order=1: 0.0419983 seconds
+Euler_191_stepnumber=24000_order=1: 0.0465284 seconds

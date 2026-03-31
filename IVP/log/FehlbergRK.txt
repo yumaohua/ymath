@@ -1,0 +1,282 @@
+FehlbergRK_190(step_number=500000,order=4):
+10.190 solution errors: 0.000154487 0.000596764 0 0.0993405 0.0173958 0 
+maxNorm of solution error:0.0993405
+cpuTime :0.128573
+-------------------------------------------------
+FehlbergRK_190(step_number=750000,order=4):
+10.190 solution errors: 0.000146714 0.000439068 0 0.0737316 0.0193829 0 
+maxNorm of solution error:0.0737316
+cpuTime :0.128864
+-------------------------------------------------
+FehlbergRK_190(step_number=875000,order=4):
+10.190 solution errors: 0.000153209 0.000596426 0 0.0992347 0.017202 0 
+maxNorm of solution error:0.0992347
+cpuTime :0.107977
+-------------------------------------------------
+FehlbergRK_190(step_number=937500,order=4):
+10.190 solution errors: 0.000152374 0.000598158 0 0.099478 0.0170295 0 
+maxNorm of solution error:0.099478
+cpuTime :0.125072
+-------------------------------------------------
+FehlbergRK_190(step_number=968750,order=4):
+10.190 solution errors: 0.000152709 0.000611116 0 0.101562 0.0167749 0 
+maxNorm of solution error:0.101562
+cpuTime :0.125011
+-------------------------------------------------
+FehlbergRK_190(step_number=984375,order=4):
+10.190 solution errors: 0.000151442 0.000597599 0 0.0993512 0.0168955 0 
+maxNorm of solution error:0.0993512
+cpuTime :0.101672
+-------------------------------------------------
+FehlbergRK_190(step_number=992188,order=4):
+10.190 solution errors: 0.000152972 0.000596182 0 0.0991862 0.0171703 0 
+maxNorm of solution error:0.0991862
+cpuTime :0.12581
+-------------------------------------------------
+FehlbergRK_190(step_number=996094,order=4):
+10.190 solution errors: 0.00015311 0.000615037 0 0.102204 0.0167437 0 
+maxNorm of solution error:0.102204
+cpuTime :0.110848
+-------------------------------------------------
+FehlbergRK_190(step_number=998047,order=4):
+10.190 solution errors: 0.000152336 0.000598384 0 0.0995125 0.0170181 0 
+maxNorm of solution error:0.0995125
+cpuTime :0.0939605
+-------------------------------------------------
+FehlbergRK_190(step_number=999024,order=4):
+10.190 solution errors: 0.000152077 0.000597229 0 0.0993176 0.0170044 0 
+maxNorm of solution error:0.0993176
+cpuTime :0.120742
+-------------------------------------------------
+FehlbergRK_190(step_number=999512,order=4):
+10.190 solution errors: 0.000153336 0.000616298 0 0.102415 0.016749 0 
+maxNorm of solution error:0.102415
+cpuTime :0.114042
+-------------------------------------------------
+FehlbergRK_190(step_number=999756,order=4):
+10.190 solution errors: 0.000152411 0.000596737 0 0.0992524 0.0170687 0 
+maxNorm of solution error:0.0992524
+cpuTime :0.104665
+-------------------------------------------------
+FehlbergRK_190(step_number=999878,order=4):
+10.190 solution errors: 0.000153355 0.000616449 0 0.10244 0.0167482 0 
+maxNorm of solution error:0.10244
+cpuTime :0.0905429
+-------------------------------------------------
+FehlbergRK_190(step_number=999939,order=4):
+10.190 solution errors: 0.000220954 0.00142789 0 0.231843 -0.00480345 0 
+maxNorm of solution error:0.231843
+cpuTime :0.0924641
+-------------------------------------------------
+FehlbergRK_190(step_number=999970,order=4):
+10.190 solution errors: 0.000146102 0.000459086 0 0.076934 0.0189303 0 
+maxNorm of solution error:0.076934
+cpuTime :0.0922446
+-------------------------------------------------
+FehlbergRK_190(step_number=999985,order=4):
+10.190 solution errors: 0.000148755 0.000520398 0 0.0868832 0.0181673 0 
+maxNorm of solution error:0.0868832
+cpuTime :0.0909047
+-------------------------------------------------
+FehlbergRK_190(step_number=999993,order=4):
+10.190 solution errors: 0.000146262 0.000458652 0 0.076869 0.0189637 0 
+maxNorm of solution error:0.076869
+cpuTime :0.0972133
+-------------------------------------------------
+FehlbergRK_190(step_number=999997,order=4):
+10.190 solution errors: 0.000221363 0.00143127 0 0.232373 -0.00492512 0 
+maxNorm of solution error:0.232373
+cpuTime :0.163298
+-------------------------------------------------
+FehlbergRK_190(step_number=999999,order=4):
+10.190 solution errors: 0.000219011 0.00141089 0 0.229182 -0.00418077 0 
+maxNorm of solution error:0.229182
+cpuTime :0.0930986
+-------------------------------------------------
+FehlbergRK_190(step_number=1000000,order=4):
+10.190 solution errors: 0.000217449 0.0013972 0 0.227036 -0.00368653 0 
+maxNorm of solution error:0.227036
+cpuTime :0.094583
+-------------------------------------------------
+FehlbergRK_191(step_number=500000,order=4):
+10.191 solution errors: 5.3489e-06 -2.2883e-05 -0 2.23416e-05 -4.30068e-06 -0 
+maxNorm of solution error:2.2883e-05
+cpuTime :0.141334
+-------------------------------------------------
+FehlbergRK_191(step_number=250000,order=4):
+10.191 solution errors: 9.76389e-06 -7.81263e-05 -0 2.76362e-05 -1.1651e-05 -0 
+maxNorm of solution error:7.81263e-05
+cpuTime :0.137075
+-------------------------------------------------
+FehlbergRK_191(step_number=125000,order=4):
+10.191 solution errors: -4.37521e-06 6.7535e-05 -0 -5.64954e-06 2.5384e-06 -0 
+maxNorm of solution error:6.7535e-05
+cpuTime :0.142947
+-------------------------------------------------
+FehlbergRK_191(step_number=62500,order=4):
+10.191 solution errors: 1.85015e-05 -0.000160159 -0 5.57126e-05 -1.41159e-05 -0 
+maxNorm of solution error:0.000160159
+cpuTime :0.135442
+-------------------------------------------------
+FehlbergRK_191(step_number=31250,order=4):
+10.191 solution errors: -1.03154e-05 8.79473e-05 -0 -3.12641e-05 8.10678e-06 -0 
+maxNorm of solution error:8.79473e-05
+cpuTime :0.130862
+-------------------------------------------------
+FehlbergRK_191(step_number=15625,order=4):
+10.191 solution errors: 1.30972e-05 -0.000276386 -0 9.14409e-06 1.14524e-05 -0 
+maxNorm of solution error:0.000276386
+cpuTime :0.138415
+-------------------------------------------------
+FehlbergRK_191(step_number=7812,order=4):
+10.191 solution errors: -6.4909e-06 6.84807e-05 -0 -1.57631e-05 5.8438e-06 -0 
+maxNorm of solution error:6.84807e-05
+cpuTime :0.131956
+-------------------------------------------------
+FehlbergRK_191(step_number=3906,order=4):
+10.191 solution errors: 1.003e-05 -0.000356799 -0 -1.68005e-05 3.14632e-05 -0 
+maxNorm of solution error:0.000356799
+cpuTime :0.139496
+-------------------------------------------------
+FehlbergRK_191(step_number=1953,order=4):
+10.191 solution errors: -1.4004e-05 0.000116594 -0 -4.42269e-05 9.88759e-06 -0 
+maxNorm of solution error:0.000116594
+cpuTime :0.133371
+-------------------------------------------------
+FehlbergRK_191(step_number=976,order=4):
+10.191 solution errors: -6.03336e-05 0.00731121 -0 0.00106254 -0.00159439 -0 
+maxNorm of solution error:0.00731121
+cpuTime :0.152191
+-------------------------------------------------
+FehlbergRK_191(step_number=1464,order=4):
+10.191 solution errors: -2.35407e-06 1.71851e-05 -0 -8.15899e-06 1.62133e-06 -0 
+maxNorm of solution error:1.71851e-05
+cpuTime :0.128883
+-------------------------------------------------
+FehlbergRK_191(step_number=1220,order=4):
+10.191 solution errors: 1.36859e-05 -0.000127591 -0 4.14745e-05 -6.90592e-06 -0 
+maxNorm of solution error:0.000127591
+cpuTime :0.131314
+-------------------------------------------------
+FehlbergRK_191(step_number=1098,order=4):
+10.191 solution errors: -5.73371e-05 0.00845958 -0 0.00130448 -0.00201085 -0 
+maxNorm of solution error:0.00845958
+cpuTime :0.128819
+-------------------------------------------------
+FehlbergRK_191(step_number=1159,order=4):
+10.191 solution errors: 1.90129e-05 -0.000149641 -0 6.14214e-05 -1.45669e-05 -0 
+maxNorm of solution error:0.000149641
+cpuTime :0.131483
+-------------------------------------------------
+FehlbergRK_191(step_number=1128,order=4):
+10.191 solution errors: 7.4056e-07 1.34308e-06 -0 4.90644e-06 7.41451e-08 -0 
+maxNorm of solution error:4.90644e-06
+cpuTime :0.128831
+-------------------------------------------------
+FehlbergRK_191(step_number=1113,order=4):
+10.191 solution errors: 2.30573e-05 -0.000194938 -0 7.11624e-05 -1.69174e-05 -0 
+maxNorm of solution error:0.000194938
+cpuTime :0.131504
+-------------------------------------------------
+FehlbergRK_191(step_number=1105,order=4):
+10.191 solution errors: 1.22753e-05 -9.03531e-05 -0 4.09937e-05 -9.81472e-06 -0 
+maxNorm of solution error:9.03531e-05
+cpuTime :0.134207
+-------------------------------------------------
+FehlbergRK_191(step_number=1101,order=4):
+10.191 solution errors: 8.29448e-07 1.0612e-05 -0 6.72838e-06 -1.35786e-06 -0 
+maxNorm of solution error:1.0612e-05
+cpuTime :0.130941
+-------------------------------------------------
+FehlbergRK_191(step_number=1099,order=4):
+10.191 solution errors: 1.74739e-05 -0.000139909 -0 5.57671e-05 -1.34333e-05 -0 
+maxNorm of solution error:0.000139909
+cpuTime :0.132802
+-------------------------------------------------
+FehlbergRK_190(step_number=1000,order=4):
+10.190 solution errors: 0.000154012 0.000596192 0 0.0992298 0.0173342 0 
+maxNorm of solution error:0.0992298
+cpuTime :0.0892875
+-------------------------------------------------
+FehlbergRK_191(step_number=1000,order=4):
+10.191 solution errors: -4.38479e-07 -1.41863e-05 -0 -5.33762e-06 1.6526e-06 -0 
+maxNorm of solution error:1.41863e-05
+cpuTime :0.135452
+-------------------------------------------------
+FehlbergRK_190(step_number=10000,order=4):
+10.190 solution errors: 0.000220374 0.00139876 0 0.227472 -0.00333892 0 
+maxNorm of solution error:0.227472
+cpuTime :0.0926117
+-------------------------------------------------
+FehlbergRK_191(step_number=10000,order=4):
+10.191 solution errors: 1.49676e-05 -9.86847e-05 -0 4.99275e-05 -1.58635e-05 -0 
+maxNorm of solution error:9.86847e-05
+cpuTime :0.130815
+-------------------------------------------------
+FehlbergRK_190(step_number=100000,order=4):
+10.190 solution errors: 0.000155501 0.000613575 0 0.102069 0.0171561 0 
+maxNorm of solution error:0.102069
+cpuTime :0.093682
+-------------------------------------------------
+FehlbergRK_191(step_number=100000,order=4):
+10.191 solution errors: 5.65292e-06 -2.54616e-05 -0 2.32153e-05 -4.6071e-06 -0 
+maxNorm of solution error:2.54616e-05
+cpuTime :0.132088
+-------------------------------------------------
+FehlbergRK_190(step_number=1000000,order=4):
+10.190 solution errors: 0.000217449 0.0013972 0 0.227036 -0.00368653 0 
+maxNorm of solution error:0.227036
+cpuTime :0.18748
+-------------------------------------------------
+FehlbergRK_191(step_number=1000000,order=4):
+10.191 solution errors: 1.92563e-05 -0.000160405 -0 5.78676e-05 -1.70347e-05 -0 
+maxNorm of solution error:0.000160405
+cpuTime :0.133582
+-------------------------------------------------
+Total elapsed time: 9.21427 seconds
+FehlbergRK_190_stepnumber=1000000_order=4: 0.18748 seconds
+FehlbergRK_190_stepnumber=100000_order=4: 0.093682 seconds
+FehlbergRK_190_stepnumber=10000_order=4: 0.0926117 seconds
+FehlbergRK_190_stepnumber=1000_order=4: 0.0892875 seconds
+FehlbergRK_190_stepnumber=500000_order=4: 0.128573 seconds
+FehlbergRK_190_stepnumber=750000_order=4: 0.128864 seconds
+FehlbergRK_190_stepnumber=875000_order=4: 0.107977 seconds
+FehlbergRK_190_stepnumber=937500_order=4: 0.125072 seconds
+FehlbergRK_190_stepnumber=968750_order=4: 0.125011 seconds
+FehlbergRK_190_stepnumber=984375_order=4: 0.101672 seconds
+FehlbergRK_190_stepnumber=992188_order=4: 0.12581 seconds
+FehlbergRK_190_stepnumber=996094_order=4: 0.110848 seconds
+FehlbergRK_190_stepnumber=998047_order=4: 0.0939605 seconds
+FehlbergRK_190_stepnumber=999024_order=4: 0.120742 seconds
+FehlbergRK_190_stepnumber=999512_order=4: 0.114042 seconds
+FehlbergRK_190_stepnumber=999756_order=4: 0.104665 seconds
+FehlbergRK_190_stepnumber=999878_order=4: 0.0905429 seconds
+FehlbergRK_190_stepnumber=999939_order=4: 0.0924641 seconds
+FehlbergRK_190_stepnumber=999970_order=4: 0.0922446 seconds
+FehlbergRK_190_stepnumber=999985_order=4: 0.0909047 seconds
+FehlbergRK_190_stepnumber=999993_order=4: 0.0972133 seconds
+FehlbergRK_190_stepnumber=999997_order=4: 0.163298 seconds
+FehlbergRK_190_stepnumber=999999_order=4: 0.0930986 seconds
+FehlbergRK_191_stepnumber=1000000_order=4: 0.133582 seconds
+FehlbergRK_191_stepnumber=100000_order=4: 0.132088 seconds
+FehlbergRK_191_stepnumber=10000_order=4: 0.130815 seconds
+FehlbergRK_191_stepnumber=1000_order=4: 0.135452 seconds
+FehlbergRK_191_stepnumber=1098_order=4: 0.128819 seconds
+FehlbergRK_191_stepnumber=1099_order=4: 0.132802 seconds
+FehlbergRK_191_stepnumber=1101_order=4: 0.130941 seconds
+FehlbergRK_191_stepnumber=1105_order=4: 0.134207 seconds
+FehlbergRK_191_stepnumber=1113_order=4: 0.131504 seconds
+FehlbergRK_191_stepnumber=1128_order=4: 0.128831 seconds
+FehlbergRK_191_stepnumber=1159_order=4: 0.131483 seconds
+FehlbergRK_191_stepnumber=1220_order=4: 0.131314 seconds
+FehlbergRK_191_stepnumber=125000_order=4: 0.142947 seconds
+FehlbergRK_191_stepnumber=1464_order=4: 0.128883 seconds
+FehlbergRK_191_stepnumber=15625_order=4: 0.138415 seconds
+FehlbergRK_191_stepnumber=1953_order=4: 0.133371 seconds
+FehlbergRK_191_stepnumber=250000_order=4: 0.137075 seconds
+FehlbergRK_191_stepnumber=31250_order=4: 0.130862 seconds
+FehlbergRK_191_stepnumber=3906_order=4: 0.139496 seconds
+FehlbergRK_191_stepnumber=500000_order=4: 0.141334 seconds
+FehlbergRK_191_stepnumber=62500_order=4: 0.135442 seconds
+FehlbergRK_191_stepnumber=7812_order=4: 0.131956 seconds
+FehlbergRK_191_stepnumber=976_order=4: 0.152191 seconds

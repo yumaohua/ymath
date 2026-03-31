@@ -1,0 +1,287 @@
+Euler_190(step_number=500000,order=1):
+10.190 solution errors: 0.00247948 -0.187078 0 -0.423828 -1.72975 0 
+maxNorm of solution error:1.72975
+cpuTime :0.800901
+-------------------------------------------------
+Euler_190(step_number=750000,order=1):
+10.190 solution errors: 0.00255829 -0.125635 0 -0.455197 -1.68438 0 
+maxNorm of solution error:1.68438
+cpuTime :1.20843
+-------------------------------------------------
+Euler_190(step_number=875000,order=1):
+10.190 solution errors: 0.00268027 -0.1079 0 -0.470744 -1.66151 0 
+maxNorm of solution error:1.66151
+cpuTime :1.37672
+-------------------------------------------------
+Euler_190(step_number=937500,order=1):
+10.190 solution errors: 0.00272203 -0.100803 0 -0.478303 -1.65026 0 
+maxNorm of solution error:1.65026
+cpuTime :1.47142
+-------------------------------------------------
+Euler_190(step_number=968750,order=1):
+10.190 solution errors: 0.00273786 -0.0975984 0 -0.48202 -1.64469 0 
+maxNorm of solution error:1.64469
+cpuTime :1.52037
+-------------------------------------------------
+Euler_190(step_number=984375,order=1):
+10.190 solution errors: 0.00274455 -0.096073 0 -0.483863 -1.64192 0 
+maxNorm of solution error:1.64192
+cpuTime :1.52348
+-------------------------------------------------
+Euler_190(step_number=992188,order=1):
+10.190 solution errors: 0.00274759 -0.0953283 0 -0.484781 -1.64054 0 
+maxNorm of solution error:1.64054
+cpuTime :1.5534
+-------------------------------------------------
+Euler_190(step_number=996094,order=1):
+10.190 solution errors: 0.00274904 -0.0949604 0 -0.485238 -1.63985 0 
+maxNorm of solution error:1.63985
+cpuTime :1.60664
+-------------------------------------------------
+Euler_190(step_number=998047,order=1):
+10.190 solution errors: 0.00274975 -0.0947775 0 -0.485467 -1.63951 0 
+maxNorm of solution error:1.63951
+cpuTime :1.55458
+-------------------------------------------------
+Euler_190(step_number=999024,order=1):
+10.190 solution errors: 0.0027501 -0.0946863 0 -0.485581 -1.63934 0 
+maxNorm of solution error:1.63934
+cpuTime :1.56535
+-------------------------------------------------
+Euler_190(step_number=999512,order=1):
+10.190 solution errors: 0.00275027 -0.0946408 0 -0.485638 -1.63925 0 
+maxNorm of solution error:1.63925
+cpuTime :1.64282
+-------------------------------------------------
+Euler_190(step_number=999756,order=1):
+10.190 solution errors: 0.00275036 -0.0946181 0 -0.485667 -1.63921 0 
+maxNorm of solution error:1.63921
+cpuTime :1.63197
+-------------------------------------------------
+Euler_190(step_number=999878,order=1):
+10.190 solution errors: 0.0027504 -0.0946068 0 -0.485681 -1.63919 0 
+maxNorm of solution error:1.63919
+cpuTime :1.61601
+-------------------------------------------------
+Euler_190(step_number=999939,order=1):
+10.190 solution errors: 0.00275042 -0.0946011 0 -0.485688 -1.63918 0 
+maxNorm of solution error:1.63918
+cpuTime :1.5797
+-------------------------------------------------
+Euler_190(step_number=999970,order=1):
+10.190 solution errors: 0.00275043 -0.0945982 0 -0.485692 -1.63917 0 
+maxNorm of solution error:1.63917
+cpuTime :1.55782
+-------------------------------------------------
+Euler_190(step_number=999985,order=1):
+10.190 solution errors: 0.00275044 -0.0945968 0 -0.485694 -1.63917 0 
+maxNorm of solution error:1.63917
+cpuTime :1.55532
+-------------------------------------------------
+Euler_190(step_number=999993,order=1):
+10.190 solution errors: 0.00275044 -0.0945961 0 -0.485695 -1.63917 0 
+maxNorm of solution error:1.63917
+cpuTime :1.59772
+-------------------------------------------------
+Euler_190(step_number=999997,order=1):
+10.190 solution errors: 0.00275044 -0.0945957 0 -0.485695 -1.63917 0 
+maxNorm of solution error:1.63917
+cpuTime :1.56325
+-------------------------------------------------
+Euler_190(step_number=999999,order=1):
+10.190 solution errors: 0.00275044 -0.0945955 0 -0.485695 -1.63917 0 
+maxNorm of solution error:1.63917
+cpuTime :1.5647
+-------------------------------------------------
+Euler_190(step_number=1000000,order=1):
+10.190 solution errors: 0.00275044 -0.0945954 0 -0.485695 -1.63917 0 
+maxNorm of solution error:1.63917
+cpuTime :1.54513
+-------------------------------------------------
+Euler_191(step_number=500000,order=1):
+10.191 solution errors: 0.207342 0.0598456 -0 0.155202 1.15973 -0 
+maxNorm of solution error:1.15973
+cpuTime :0.770084
+-------------------------------------------------
+Euler_191(step_number=750000,order=1):
+10.191 solution errors: 0.134864 -0.040416 -0 0.672984 0.476546 -0 
+maxNorm of solution error:0.672984
+cpuTime :1.15682
+-------------------------------------------------
+Euler_191(step_number=875000,order=1):
+10.191 solution errors: 0.104535 -0.0471706 -0 0.593916 0.227597 -0 
+maxNorm of solution error:0.593916
+cpuTime :1.33971
+-------------------------------------------------
+Euler_191(step_number=937500,order=1):
+10.191 solution errors: 0.0932549 -0.0473037 -0 0.541596 0.152516 -0 
+maxNorm of solution error:0.541596
+cpuTime :1.76314
+-------------------------------------------------
+Euler_191(step_number=968750,order=1):
+10.191 solution errors: 0.0883878 -0.0469849 -0 0.51613 0.123691 -0 
+maxNorm of solution error:0.51613
+cpuTime :1.486
+-------------------------------------------------
+Euler_191(step_number=984375,order=1):
+10.191 solution errors: 0.086123 -0.0467598 -0 0.503768 0.11105 -0 
+maxNorm of solution error:0.503768
+cpuTime :1.51044
+-------------------------------------------------
+Euler_191(step_number=992188,order=1):
+10.191 solution errors: 0.0850298 -0.0466338 -0 0.497695 0.105127 -0 
+maxNorm of solution error:0.497695
+cpuTime :1.62919
+-------------------------------------------------
+Euler_191(step_number=996094,order=1):
+10.191 solution errors: 0.0844928 -0.0465677 -0 0.494687 0.102261 -0 
+maxNorm of solution error:0.494687
+cpuTime :1.53833
+-------------------------------------------------
+Euler_191(step_number=998047,order=1):
+10.191 solution errors: 0.0842267 -0.046534 -0 0.49319 0.100851 -0 
+maxNorm of solution error:0.49319
+cpuTime :1.54802
+-------------------------------------------------
+Euler_191(step_number=999024,order=1):
+10.191 solution errors: 0.0840941 -0.0465169 -0 0.492443 0.100151 -0 
+maxNorm of solution error:0.492443
+cpuTime :1.53983
+-------------------------------------------------
+Euler_191(step_number=999512,order=1):
+10.191 solution errors: 0.084028 -0.0465083 -0 0.49207 0.0998027 -0 
+maxNorm of solution error:0.49207
+cpuTime :1.59631
+-------------------------------------------------
+Euler_191(step_number=999756,order=1):
+10.191 solution errors: 0.083995 -0.0465041 -0 0.491884 0.099629 -0 
+maxNorm of solution error:0.491884
+cpuTime :1.72481
+-------------------------------------------------
+Euler_191(step_number=999878,order=1):
+10.191 solution errors: 0.0839785 -0.0465019 -0 0.491791 0.0995422 -0 
+maxNorm of solution error:0.491791
+cpuTime :1.85436
+-------------------------------------------------
+Euler_191(step_number=999939,order=1):
+10.191 solution errors: 0.0839703 -0.0465008 -0 0.491744 0.0994989 -0 
+maxNorm of solution error:0.491744
+cpuTime :1.8338
+-------------------------------------------------
+Euler_191(step_number=999970,order=1):
+10.191 solution errors: 0.0839661 -0.0465003 -0 0.49172 0.0994768 -0 
+maxNorm of solution error:0.49172
+cpuTime :1.70898
+-------------------------------------------------
+Euler_191(step_number=999985,order=1):
+10.191 solution errors: 0.0839641 -0.0465 -0 0.491709 0.0994662 -0 
+maxNorm of solution error:0.491709
+cpuTime :1.71891
+-------------------------------------------------
+Euler_191(step_number=999993,order=1):
+10.191 solution errors: 0.083963 -0.0464999 -0 0.491703 0.0994605 -0 
+maxNorm of solution error:0.491703
+cpuTime :1.84929
+-------------------------------------------------
+Euler_191(step_number=999997,order=1):
+10.191 solution errors: 0.0839625 -0.0464998 -0 0.4917 0.0994577 -0 
+maxNorm of solution error:0.4917
+cpuTime :1.68457
+-------------------------------------------------
+Euler_191(step_number=999999,order=1):
+10.191 solution errors: 0.0839622 -0.0464998 -0 0.491698 0.0994562 -0 
+maxNorm of solution error:0.491698
+cpuTime :1.55601
+-------------------------------------------------
+Euler_191(step_number=1000000,order=1):
+10.191 solution errors: 0.0839621 -0.0464998 -0 0.491698 0.0994555 -0 
+maxNorm of solution error:0.491698
+cpuTime :1.62267
+-------------------------------------------------
+Euler_190(step_number=1000,order=1):
+10.190 solution errors: -9.52789 105.725 0 105.227 14.7892 0 
+maxNorm of solution error:105.725
+cpuTime :0.0024273
+-------------------------------------------------
+Euler_191(step_number=1000,order=1):
+10.191 solution errors: 2.2273 -0.798836 -0 -0.794383 -2.37695 -0 
+maxNorm of solution error:2.37695
+cpuTime :0.0015716
+-------------------------------------------------
+Euler_190(step_number=10000,order=1):
+10.190 solution errors: -41.804 -29.0576 0 -31.6348 39.0433 0 
+maxNorm of solution error:41.804
+cpuTime :0.0170178
+-------------------------------------------------
+Euler_191(step_number=10000,order=1):
+10.191 solution errors: -14.4016 -23.9143 -0 -23.71 11.7731 -0 
+maxNorm of solution error:23.9143
+cpuTime :0.0166595
+-------------------------------------------------
+Euler_190(step_number=100000,order=1):
+10.190 solution errors: 0.0679428 -0.667777 0 -0.511093 -1.73086 0 
+maxNorm of solution error:1.73086
+cpuTime :0.162063
+-------------------------------------------------
+Euler_191(step_number=100000,order=1):
+10.191 solution errors: -0.328275 -0.522333 -0 -0.269771 -0.984886 -0 
+maxNorm of solution error:0.984886
+cpuTime :0.226567
+-------------------------------------------------
+Euler_190(step_number=1000000,order=1):
+10.190 solution errors: 0.00275044 -0.0945954 0 -0.485695 -1.63917 0 
+maxNorm of solution error:1.63917
+cpuTime :3.09188
+-------------------------------------------------
+Euler_191(step_number=1000000,order=1):
+10.191 solution errors: 0.0839621 -0.0464998 -0 0.491698 0.0994555 -0 
+maxNorm of solution error:0.491698
+cpuTime :3.24101
+-------------------------------------------------
+Total elapsed time: 160.464 seconds
+Euler_190_stepnumber=1000000_order=1: 3.09188 seconds
+Euler_190_stepnumber=100000_order=1: 0.162063 seconds
+Euler_190_stepnumber=10000_order=1: 0.0170178 seconds
+Euler_190_stepnumber=1000_order=1: 0.0024273 seconds
+Euler_190_stepnumber=500000_order=1: 0.800901 seconds
+Euler_190_stepnumber=750000_order=1: 1.20843 seconds
+Euler_190_stepnumber=875000_order=1: 1.37672 seconds
+Euler_190_stepnumber=937500_order=1: 1.47142 seconds
+Euler_190_stepnumber=968750_order=1: 1.52037 seconds
+Euler_190_stepnumber=984375_order=1: 1.52348 seconds
+Euler_190_stepnumber=992188_order=1: 1.5534 seconds
+Euler_190_stepnumber=996094_order=1: 1.60664 seconds
+Euler_190_stepnumber=998047_order=1: 1.55458 seconds
+Euler_190_stepnumber=999024_order=1: 1.56535 seconds
+Euler_190_stepnumber=999512_order=1: 1.64282 seconds
+Euler_190_stepnumber=999756_order=1: 1.63197 seconds
+Euler_190_stepnumber=999878_order=1: 1.61601 seconds
+Euler_190_stepnumber=999939_order=1: 1.5797 seconds
+Euler_190_stepnumber=999970_order=1: 1.55782 seconds
+Euler_190_stepnumber=999985_order=1: 1.55532 seconds
+Euler_190_stepnumber=999993_order=1: 1.59772 seconds
+Euler_190_stepnumber=999997_order=1: 1.56325 seconds
+Euler_190_stepnumber=999999_order=1: 1.5647 seconds
+Euler_191_stepnumber=1000000_order=1: 3.24101 seconds
+Euler_191_stepnumber=100000_order=1: 0.226567 seconds
+Euler_191_stepnumber=10000_order=1: 0.0166595 seconds
+Euler_191_stepnumber=1000_order=1: 0.0015716 seconds
+Euler_191_stepnumber=500000_order=1: 0.770084 seconds
+Euler_191_stepnumber=750000_order=1: 1.15682 seconds
+Euler_191_stepnumber=875000_order=1: 1.33971 seconds
+Euler_191_stepnumber=937500_order=1: 1.76314 seconds
+Euler_191_stepnumber=968750_order=1: 1.486 seconds
+Euler_191_stepnumber=984375_order=1: 1.51044 seconds
+Euler_191_stepnumber=992188_order=1: 1.62919 seconds
+Euler_191_stepnumber=996094_order=1: 1.53833 seconds
+Euler_191_stepnumber=998047_order=1: 1.54802 seconds
+Euler_191_stepnumber=999024_order=1: 1.53983 seconds
+Euler_191_stepnumber=999512_order=1: 1.59631 seconds
+Euler_191_stepnumber=999756_order=1: 1.72481 seconds
+Euler_191_stepnumber=999878_order=1: 1.85436 seconds
+Euler_191_stepnumber=999939_order=1: 1.8338 seconds
+Euler_191_stepnumber=999970_order=1: 1.70898 seconds
+Euler_191_stepnumber=999985_order=1: 1.71891 seconds
+Euler_191_stepnumber=999993_order=1: 1.84929 seconds
+Euler_191_stepnumber=999997_order=1: 1.68457 seconds
+Euler_191_stepnumber=999999_order=1: 1.55601 seconds

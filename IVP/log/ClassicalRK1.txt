@@ -1,0 +1,13 @@
+ClassicalRK_190(step_number=6000,order=4):
+10.190 solution errors: 0.232232 0.259667 0 -0.510078 -2.06085 0 
+maxNorm of solution error:2.06085
+cpuTime :0.0428126
+-------------------------------------------------
+ClassicalRK_191(step_number=6000,order=4):
+10.191 solution errors: -1.86982e-08 6.13425e-08 -0 -7.20663e-08 4.41581e-08 -0 
+maxNorm of solution error:7.20663e-08
+cpuTime :0.0448457
+-------------------------------------------------
+Total elapsed time: 0.329649 seconds
+ClassicalRK_190_stepnumber=6000_order=4: 0.0428126 seconds
+ClassicalRK_191_stepnumber=6000_order=4: 0.0448457 seconds

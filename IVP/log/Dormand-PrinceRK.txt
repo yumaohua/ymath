@@ -1,0 +1,288 @@
+Dormand-PrinceRK_190(step_number=500000,order=5):
+10.190 solution errors: -4.17096e-05 -4.88219e-05 0 -0.00830458 -0.00650695 0 
+maxNorm of solution error:0.00830458
+cpuTime :0.121523
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=750000,order=5):
+10.190 solution errors: -4.084e-05 -0.000101473 0 -0.0165154 -0.00652054 0 
+maxNorm of solution error:0.0165154
+cpuTime :0.1263
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=875000,order=5):
+10.190 solution errors: -2.20947e-05 0.000721611 0 0.111567 -0.0129049 0 
+maxNorm of solution error:0.111567
+cpuTime :0.124838
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=937500,order=5):
+10.190 solution errors: -1.98205e-05 0.000758368 0 0.117252 -0.0135438 0 
+maxNorm of solution error:0.117252
+cpuTime :0.123014
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=968750,order=5):
+10.190 solution errors: -2.20359e-05 0.000722951 0 0.111773 -0.012931 0 
+maxNorm of solution error:0.111773
+cpuTime :0.122409
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=984375,order=5):
+10.190 solution errors: -2.09694e-05 0.000722758 0 0.111789 -0.0127658 0 
+maxNorm of solution error:0.111789
+cpuTime :0.12449
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=992188,order=5):
+10.190 solution errors: -4.09795e-05 -8.78711e-05 0 -0.0143926 -0.00649419 0 
+maxNorm of solution error:0.0143926
+cpuTime :0.12411
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=996094,order=5):
+10.190 solution errors: -2.12018e-05 0.000723273 0 0.111857 -0.0128141 0 
+maxNorm of solution error:0.111857
+cpuTime :0.122192
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=998047,order=5):
+10.190 solution errors: -2.10965e-05 0.000722638 0 0.111765 -0.0127818 0 
+maxNorm of solution error:0.111765
+cpuTime :0.12788
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=999024,order=5):
+10.190 solution errors: -2.12312e-05 0.000722468 0 0.111733 -0.0127975 0 
+maxNorm of solution error:0.111733
+cpuTime :0.124153
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=999512,order=5):
+10.190 solution errors: -2.10758e-05 0.000722781 0 0.111788 -0.0127824 0 
+maxNorm of solution error:0.111788
+cpuTime :0.124004
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=999756,order=5):
+10.190 solution errors: -2.10248e-05 0.000723201 0 0.111854 -0.0127856 0 
+maxNorm of solution error:0.111854
+cpuTime :0.122685
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=999878,order=5):
+10.190 solution errors: -2.16359e-05 0.000712075 0 0.110134 -0.0125895 0 
+maxNorm of solution error:0.110134
+cpuTime :0.127683
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=999939,order=5):
+10.190 solution errors: -4.0807e-05 0.000107974 0 0.0161806 -0.00652932 0 
+maxNorm of solution error:0.0161806
+cpuTime :0.124754
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=999970,order=5):
+10.190 solution errors: -2.00336e-05 0.000740287 0 0.114495 -0.0130876 0 
+maxNorm of solution error:0.114495
+cpuTime :0.123182
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=999985,order=5):
+10.190 solution errors: -1.90685e-05 0.000756786 0 0.117044 -0.0133879 0 
+maxNorm of solution error:0.117044
+cpuTime :0.127104
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=999993,order=5):
+10.190 solution errors: -2.00217e-05 0.000740605 0 0.114545 -0.0130944 0 
+maxNorm of solution error:0.114545
+cpuTime :0.130324
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=999997,order=5):
+10.190 solution errors: -2.0117e-05 0.000738915 0 0.114283 -0.0130636 0 
+maxNorm of solution error:0.114283
+cpuTime :0.131786
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=999999,order=5):
+10.190 solution errors: -4.11446e-05 -4.08336e-05 0 -0.00704828 -0.00640639 0 
+maxNorm of solution error:0.00704828
+cpuTime :0.12521
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=1000000,order=5):
+10.190 solution errors: -1.9092e-05 0.000756482 0 0.116997 -0.0133832 0 
+maxNorm of solution error:0.116997
+cpuTime :0.128922
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=500000,order=5):
+10.191 solution errors: -8.73947e-06 0.00017857 -0 -6.03237e-06 9.05732e-06 -0 
+maxNorm of solution error:0.00017857
+cpuTime :0.178297
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=250000,order=5):
+10.191 solution errors: -9.82221e-06 0.00221577 -0 0.000339022 -0.000212174 -0 
+maxNorm of solution error:0.00221577
+cpuTime :0.241629
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=375000,order=5):
+10.191 solution errors: -3.19844e-07 0.00113744 -0 0.000196451 -8.12342e-05 -0 
+maxNorm of solution error:0.00113744
+cpuTime :0.18294
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=437500,order=5):
+10.191 solution errors: -1.25234e-05 -0.00318684 -0 -0.000607275 0.000234243 -0 
+maxNorm of solution error:0.00318684
+cpuTime :0.17965
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=468750,order=5):
+10.191 solution errors: -7.75557e-06 -0.0014604 -0 -0.00028813 0.000127543 -0 
+maxNorm of solution error:0.0014604
+cpuTime :0.176651
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=484375,order=5):
+10.191 solution errors: 1.95072e-06 4.40118e-05 -0 1.51785e-05 -6.9855e-06 -0 
+maxNorm of solution error:4.40118e-05
+cpuTime :0.177506
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=476562,order=5):
+10.191 solution errors: 3.0621e-05 0.00434194 -0 0.000889001 -0.000588529 -0 
+maxNorm of solution error:0.00434194
+cpuTime :0.179339
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=480468,order=5):
+10.191 solution errors: 8.83742e-06 0.00403961 -0 0.000745499 -0.000642749 -0 
+maxNorm of solution error:0.00403961
+cpuTime :0.175918
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=482421,order=5):
+10.191 solution errors: -6.87599e-06 0.00128078 -0 0.000191105 -8.26447e-05 -0 
+maxNorm of solution error:0.00128078
+cpuTime :0.178797
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=483398,order=5):
+10.191 solution errors: -1.68164e-05 -0.00137463 -0 -0.000312485 0.000151765 -0 
+maxNorm of solution error:0.00137463
+cpuTime :0.205293
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=483886,order=5):
+10.191 solution errors: 1.05105e-05 0.000688188 -0 0.000164097 -6.96498e-05 -0 
+maxNorm of solution error:0.000688188
+cpuTime :0.220975
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=483642,order=5):
+10.191 solution errors: 2.13642e-05 0.00497212 -0 0.000958712 -0.000702536 -0 
+maxNorm of solution error:0.00497212
+cpuTime :0.220641
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=483764,order=5):
+10.191 solution errors: 9.00398e-06 0.00316087 -0 0.000591276 -0.000477807 -0 
+maxNorm of solution error:0.00316087
+cpuTime :0.212526
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=483825,order=5):
+10.191 solution errors: -1.07009e-05 0.000248299 -0 -3.65675e-06 6.61219e-06 -0 
+maxNorm of solution error:0.000248299
+cpuTime :0.188316
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=483794,order=5):
+10.191 solution errors: -9.84999e-06 0.000661987 -0 7.041e-05 -2.63584e-05 -0 
+maxNorm of solution error:0.000661987
+cpuTime :0.188636
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=483779,order=5):
+10.191 solution errors: 2.20499e-05 0.00178404 -0 0.000407037 -0.000194896 -0 
+maxNorm of solution error:0.00178404
+cpuTime :0.222454
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=483786,order=5):
+10.191 solution errors: -3.83396e-06 4.75284e-05 -0 -9.16233e-06 4.97468e-06 -0 
+maxNorm of solution error:4.75284e-05
+cpuTime :0.230159
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=483782,order=5):
+10.191 solution errors: -4.57666e-06 -0.00207324 -0 -0.000379585 0.000269176 -0 
+maxNorm of solution error:0.00207324
+cpuTime :0.214247
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=483784,order=5):
+10.191 solution errors: -1.60857e-05 -0.00206195 -0 -0.000431651 9.7656e-05 -0 
+maxNorm of solution error:0.00206195
+cpuTime :0.184417
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=483785,order=5):
+10.191 solution errors: -1.65829e-05 -0.00306221 -0 -0.000605119 0.00035553 -0 
+maxNorm of solution error:0.00306221
+cpuTime :0.246644
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=1000,order=5):
+10.190 solution errors: -2.20172e-05 0.000721654 0 0.111576 -0.0128944 0 
+maxNorm of solution error:0.111576
+cpuTime :0.12794
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=1000,order=5):
+10.191 solution errors: 2.32438e-05 0.00494857 -0 0.000961818 -0.000619362 -0 
+maxNorm of solution error:0.00494857
+cpuTime :0.186105
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=10000,order=5):
+10.190 solution errors: -2.19635e-05 0.000723557 0 0.111868 -0.0129359 0 
+maxNorm of solution error:0.111868
+cpuTime :0.145991
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=10000,order=5):
+10.191 solution errors: 1.94452e-05 0.00296967 -0 0.00060271 -0.000474867 -0 
+maxNorm of solution error:0.00296967
+cpuTime :0.213339
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=100000,order=5):
+10.190 solution errors: -2.20219e-05 0.000722015 0 0.111631 -0.0129045 0 
+maxNorm of solution error:0.111631
+cpuTime :0.136529
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=100000,order=5):
+10.191 solution errors: -8.95349e-06 0.000224809 -0 7.77298e-07 6.40153e-06 -0 
+maxNorm of solution error:0.000224809
+cpuTime :0.192791
+-------------------------------------------------
+Dormand-PrinceRK_190(step_number=1000000,order=5):
+10.190 solution errors: -1.9092e-05 0.000756482 0 0.116997 -0.0133832 0 
+maxNorm of solution error:0.116997
+cpuTime :0.278442
+-------------------------------------------------
+Dormand-PrinceRK_191(step_number=1000000,order=5):
+10.191 solution errors: 4.1479e-05 0.00698109 -0 0.00140936 -0.00113467 -0 
+maxNorm of solution error:0.00698109
+cpuTime :0.189179
+-------------------------------------------------
+Total elapsed time: 13.2091 seconds
+Dormand-PrinceRK_190_stepnumber=1000000_order=5: 0.278442 seconds
+Dormand-PrinceRK_190_stepnumber=100000_order=5: 0.136529 seconds
+Dormand-PrinceRK_190_stepnumber=10000_order=5: 0.145991 seconds
+Dormand-PrinceRK_190_stepnumber=1000_order=5: 0.12794 seconds
+Dormand-PrinceRK_190_stepnumber=500000_order=5: 0.121523 seconds
+Dormand-PrinceRK_190_stepnumber=750000_order=5: 0.1263 seconds
+Dormand-PrinceRK_190_stepnumber=875000_order=5: 0.124838 seconds
+Dormand-PrinceRK_190_stepnumber=937500_order=5: 0.123014 seconds
+Dormand-PrinceRK_190_stepnumber=968750_order=5: 0.122409 seconds
+Dormand-PrinceRK_190_stepnumber=984375_order=5: 0.12449 seconds
+Dormand-PrinceRK_190_stepnumber=992188_order=5: 0.12411 seconds
+Dormand-PrinceRK_190_stepnumber=996094_order=5: 0.122192 seconds
+Dormand-PrinceRK_190_stepnumber=998047_order=5: 0.12788 seconds
+Dormand-PrinceRK_190_stepnumber=999024_order=5: 0.124153 seconds
+Dormand-PrinceRK_190_stepnumber=999512_order=5: 0.124004 seconds
+Dormand-PrinceRK_190_stepnumber=999756_order=5: 0.122685 seconds
+Dormand-PrinceRK_190_stepnumber=999878_order=5: 0.127683 seconds
+Dormand-PrinceRK_190_stepnumber=999939_order=5: 0.124754 seconds
+Dormand-PrinceRK_190_stepnumber=999970_order=5: 0.123182 seconds
+Dormand-PrinceRK_190_stepnumber=999985_order=5: 0.127104 seconds
+Dormand-PrinceRK_190_stepnumber=999993_order=5: 0.130324 seconds
+Dormand-PrinceRK_190_stepnumber=999997_order=5: 0.131786 seconds
+Dormand-PrinceRK_190_stepnumber=999999_order=5: 0.12521 seconds
+Dormand-PrinceRK_191_stepnumber=1000000_order=5: 0.189179 seconds
+Dormand-PrinceRK_191_stepnumber=100000_order=5: 0.192791 seconds
+Dormand-PrinceRK_191_stepnumber=10000_order=5: 0.213339 seconds
+Dormand-PrinceRK_191_stepnumber=1000_order=5: 0.186105 seconds
+Dormand-PrinceRK_191_stepnumber=250000_order=5: 0.241629 seconds
+Dormand-PrinceRK_191_stepnumber=375000_order=5: 0.18294 seconds
+Dormand-PrinceRK_191_stepnumber=437500_order=5: 0.17965 seconds
+Dormand-PrinceRK_191_stepnumber=468750_order=5: 0.176651 seconds
+Dormand-PrinceRK_191_stepnumber=476562_order=5: 0.179339 seconds
+Dormand-PrinceRK_191_stepnumber=480468_order=5: 0.175918 seconds
+Dormand-PrinceRK_191_stepnumber=482421_order=5: 0.178797 seconds
+Dormand-PrinceRK_191_stepnumber=483398_order=5: 0.205293 seconds
+Dormand-PrinceRK_191_stepnumber=483642_order=5: 0.220641 seconds
+Dormand-PrinceRK_191_stepnumber=483764_order=5: 0.212526 seconds
+Dormand-PrinceRK_191_stepnumber=483779_order=5: 0.222454 seconds
+Dormand-PrinceRK_191_stepnumber=483782_order=5: 0.214247 seconds
+Dormand-PrinceRK_191_stepnumber=483784_order=5: 0.184417 seconds
+Dormand-PrinceRK_191_stepnumber=483785_order=5: 0.246644 seconds
+Dormand-PrinceRK_191_stepnumber=483786_order=5: 0.230159 seconds
+Dormand-PrinceRK_191_stepnumber=483794_order=5: 0.188636 seconds
+Dormand-PrinceRK_191_stepnumber=483825_order=5: 0.188316 seconds
+Dormand-PrinceRK_191_stepnumber=483886_order=5: 0.220975 seconds
+Dormand-PrinceRK_191_stepnumber=484375_order=5: 0.177506 seconds
+Dormand-PrinceRK_191_stepnumber=500000_order=5: 0.178297 seconds

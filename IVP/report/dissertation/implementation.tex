@@ -1,0 +1,101 @@
+\chapter{Implementation}
+\label{ch:implementation}
+
+%In this chapter, we describe the implementation of the design we described in \Cref{ch:design}. You should \textbf{not} describe every line of code in your implementation. Instead, you should focus on the interesting aspects of the implementation: that is, the most challenging parts that would not be obvious to an average Computer Scientist. Include diagrams, short code snippets, etc. for illustration. 
+
+在完成问题的定义后,求解器首先通过五点差分理论获得线性系统,然后求解线性系统获得解,再输出解以及利用解来计算各种$q-norm$等.
+
+将在此处介绍最艰难的部分,即针对Chapter1中的各种问题该项目如何获得线性系统.
+
+线性系统的定义主要由两个函数完成,分别是Define和DefineCoef.
+
+DefineCoef输入可离散的格点(规则或不规则)的序号(第几列,第几行),
+依次返回其左侧,上侧,右侧,下侧,自身的系数以及线性系统右侧常数,若
+左上右下的点中有点是非离散点,则其系数为0,从而不会写入线性系统左侧的矩阵中.
+
+Define首先根据离散点总数完成线性系统左侧矩阵和右侧向量的初始化.然后
+将离散点(规则或不规则)的格点序号输入到DefineCoef中,然后将DefineCoef
+的输出赋予到线性系统相应的位置.其中离散点格点序号和其在线性系统中的位置
+是通过一个Hashmap完成对应的.
+
+于是针对各种情况的处理任务主要由DefineCoef完成,下面具体介绍它是如何完成的.
+
+\section{DefineCoef}
+
+下面设沿着一个维度有$n+1$个格点,令$h=1/n$,令$rhs$为Poission方程$-\Delta u=f$的右端函数,
+令$U_l$代表左侧点,令$U_u$代表上侧点,令$U_r$代表右侧点,令$U_d$代表下侧点,令$U_c$代表自身(中心点).
+
+DefineCoef的实现思路是:
+\begin{itemize}
+    \item 写出五点差分公式(系数和常数值都储存在输出向量中),若所有点都不在边界,直接输出
+    \item 否则,将$Neumann$条件的点表示为其它点和常数的线性组合(即通过Taylor展开的原理利用其它点估计该点的偏导数或方向导数),得到相应的方程组
+    \item 解出$Neumann$条件的点关于$Dirichlet$条件的点,离散点和常数的线性组合.
+    \item 将上一步结果代入五点差分公式,再将$Dirichlet$条件的点的值代入
+    \item 得到只关于离散点和常数的五点差分公式,将其系数(非离散点系数此时变为0)和常数值输出
+\end{itemize}
+
+\subsection{五点差分公式}
+
+若输入点规则则根据
+\begin{align*}
+    -\frac{U_l-2U_c+U_r}{h^2}-\frac{U_u-2U_c+U_d}{h^2}=rhs
+\end{align*}
+初始化输出向量为$[-1/h^2,-1/h^2,-1/h^2,-1/h^2,4/h^2,rhs]$.
+
+若不规则,则通过taylor展开原理用相应的公式初始化向量.
+
+如设$U_l.x=U_c.x-\theta h$,则对应的估计$U_{xx}$的公式为
+\begin{align*}
+     \frac{\theta^2h^2+\theta h}{2}U_{cxx}=U_0+(-1-\theta)U_1+\theta U_2
+\end{align*}
+
+这一步的LTE为$O(h^2)$.(注意本篇report中不把左边的系数除到另一边)
+
+\subsection{非圆边界的$Neumann$条件}
+
+在这种情况下,通过同一行或同一列的三个点来估计该值,可以令LTE达到$O(h^2)$.
+
+由于另一侧的点可能在圆周上,不妨设$U_l$是非圆周的边界上的不规则点,$U_r.x-U_c.x=\theta h$,则$U_r$不在
+圆周上的情况等价于$\theta=1$,所以这里保留theta给出估计$U_l$处方向导数的估计.
+
+注意,此项目中$Neumann$条件对应的方向导数方向为从定义域内部指向定义域外部,这是在定义输入函数时容易写错的一点.
+
+利用对左侧点的Taylor展开给出关于x轴a正方向的偏导数估计
+\begin{align*}
+    &(-(1+\theta)^2h+(1+\theta)h){U_l}_x \\
+    =&((1+\theta)^2-1)U_l-(1+\theta)^2U_c+U_r
+\end{align*}
+
+该公式的LTE为$O(h^2)$.
+
+\subsection{圆周上$Neumann$条件的情况}
+
+对于圆周上$Neumann$条件的点,我们可以获得它指向圆心的方向导数,
+其中方向导数为$U_x \cos \beta+U_y \sin \beta$,其中$\beta$为该圆周上的点
+与圆心连线的角度,可以由该点坐标和圆心坐标求出,这里不缀述.
+
+我们只需要在给出$U_x$和$U_y$的估计即可将条件表示为点和常数的线性组合.
+
+假设该在圆周上的点为$U_l$,设$U_c.x-U_l.x=\theta h$,此时还要考虑$U_u$和$U_d$是否在圆周上(这是为了估计$U_y$,可以看下面的式子).
+不妨设$U_d$在圆周上,设$U_c.y-U_d.y=\alpha h$,而两个点都不在圆周上时,只需代入$\alpha=1$.
+
+通过对左侧点的Taylor展开,给出以下估计式
+\begin{align*}
+    &(-(1+\theta)^2\theta h +\theta^2 (1+\theta) h)U_{lx}\\
+    =&((1+\theta)^2-\theta^2)U_l-(1+\theta)^2 U_c +\theta^2 U_r\\
+    &(-\alpha^2 h-\alpha h)U_{ly}\\
+    =&(-\alpha^2)U_u+(\alpha^2-1)U_c+U_d
+\end{align*}
+
+上式中,对$U_{lx}$的估计的$LTE$为$O(h^2)$,但是对$U_{ly}$的估计的$LTE$
+只有$C(U_{lxy})h+O(h^2)$,即若函数的在该点先后对x和y求偏导为0,则也可以达到$O(h^2)$.
+
+\subsection{剩下的部分}
+
+剩下的部分是简单的,对于如何求解$Neumann$条件的点关于其它点和常数的线性组合,我的做法是对于每个非$Neumann$条件的点为1其它为0
+的情况以及它们都为0的情况都设置一个右端向量,于是可以求解出相应的线性表示.
+
+事实上有这种需求的情况主要是$Neumann$条件的点的线性表示中出现了其它$Neumann$条件的点,
+而这种情况除了遇见圆上$Neumann$条件的点以外应该是比较极端的,所以这是一个留以优化的地方.
+
+将求解出的线性表示代入五点差分公式,再将$Dirichlet$条件的点的值代入,输出即可.

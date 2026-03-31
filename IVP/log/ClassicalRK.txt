@@ -1,0 +1,289 @@
+ClassicalRK_190(step_number=500000,order=4):
+10.190 solution errors: 1.58813e-09 4.97824e-09 0 8.10999e-07 2.47184e-07 0 
+maxNorm of solution error:8.10999e-07
+cpuTime :3.72672
+-------------------------------------------------
+ClassicalRK_190(step_number=250000,order=4):
+10.190 solution errors: 2.57163e-08 8.06677e-08 0 1.31413e-05 4.00249e-06 0 
+maxNorm of solution error:1.31413e-05
+cpuTime :2.06659
+-------------------------------------------------
+ClassicalRK_190(step_number=125000,order=4):
+10.190 solution errors: 4.21136e-07 1.3229e-06 0 0.000215517 6.55167e-05 0 
+maxNorm of solution error:0.000215517
+cpuTime :0.944718
+-------------------------------------------------
+ClassicalRK_190(step_number=62500,order=4):
+10.190 solution errors: 7.05862e-06 2.21831e-05 0 0.00361917 0.00109014 0 
+maxNorm of solution error:0.00361917
+cpuTime :0.485546
+-------------------------------------------------
+ClassicalRK_190(step_number=93750,order=4):
+10.190 solution errors: 1.35156e-06 4.2484e-06 0 0.000692248 0.000210049 0 
+maxNorm of solution error:0.000692248
+cpuTime :0.731228
+-------------------------------------------------
+ClassicalRK_190(step_number=78125,order=4):
+10.190 solution errors: 2.83729e-06 8.92062e-06 0 0.00145402 0.000440232 0 
+maxNorm of solution error:0.00145402
+cpuTime :0.619471
+-------------------------------------------------
+ClassicalRK_190(step_number=85937,order=4):
+10.190 solution errors: 1.92496e-06 6.05169e-06 0 0.000986203 0.000298975 0 
+maxNorm of solution error:0.000986203
+cpuTime :0.73244
+-------------------------------------------------
+ClassicalRK_190(step_number=82031,order=4):
+10.190 solution errors: 2.32605e-06 7.31303e-06 0 0.00119186 0.000361111 0 
+maxNorm of solution error:0.00119186
+cpuTime :0.664749
+-------------------------------------------------
+ClassicalRK_190(step_number=83984,order=4):
+10.190 solution errors: 2.11366e-06 6.6451e-06 0 0.00108295 0.000328214 0 
+maxNorm of solution error:0.00108295
+cpuTime :0.676429
+-------------------------------------------------
+ClassicalRK_190(step_number=84960,order=4):
+10.190 solution errors: 2.0166e-06 6.33988e-06 0 0.00103319 0.000313177 0 
+maxNorm of solution error:0.00103319
+cpuTime :0.66238
+-------------------------------------------------
+ClassicalRK_190(step_number=85448,order=4):
+10.190 solution errors: 1.97016e-06 6.19384e-06 0 0.00100938 0.00030598 0 
+maxNorm of solution error:0.00100938
+cpuTime :0.709027
+-------------------------------------------------
+ClassicalRK_190(step_number=85692,order=4):
+10.190 solution errors: 1.94745e-06 6.12239e-06 0 0.00099773 0.00030246 0 
+maxNorm of solution error:0.00099773
+cpuTime :0.676946
+-------------------------------------------------
+ClassicalRK_190(step_number=85570,order=4):
+10.190 solution errors: 1.95876e-06 6.15798e-06 0 0.00100353 0.000304214 0 
+maxNorm of solution error:0.00100353
+cpuTime :0.710132
+-------------------------------------------------
+ClassicalRK_190(step_number=85631,order=4):
+10.190 solution errors: 1.95309e-06 6.14016e-06 0 0.00100063 0.000303335 0 
+maxNorm of solution error:0.00100063
+cpuTime :0.767078
+-------------------------------------------------
+ClassicalRK_190(step_number=85661,order=4):
+10.190 solution errors: 1.95031e-06 6.13141e-06 0 0.000999201 0.000302904 0 
+maxNorm of solution error:0.000999201
+cpuTime :0.675949
+-------------------------------------------------
+ClassicalRK_190(step_number=85646,order=4):
+10.190 solution errors: 1.9517e-06 6.13578e-06 0 0.000999913 0.00030312 0 
+maxNorm of solution error:0.000999913
+cpuTime :0.827045
+-------------------------------------------------
+ClassicalRK_190(step_number=85638,order=4):
+10.190 solution errors: 1.95244e-06 6.13811e-06 0 0.00100029 0.000303234 0 
+maxNorm of solution error:0.00100029
+cpuTime :0.659669
+-------------------------------------------------
+ClassicalRK_190(step_number=85642,order=4):
+10.190 solution errors: 1.95207e-06 6.13695e-06 0 0.0010001 0.000303177 0 
+maxNorm of solution error:0.0010001
+cpuTime :0.678624
+-------------------------------------------------
+ClassicalRK_190(step_number=85644,order=4):
+10.190 solution errors: 1.95189e-06 6.13636e-06 0 0.00100001 0.000303148 0 
+maxNorm of solution error:0.00100001
+cpuTime :0.706369
+-------------------------------------------------
+ClassicalRK_190(step_number=85645,order=4):
+10.190 solution errors: 1.9518e-06 6.13607e-06 0 0.00099996 0.000303134 0 
+maxNorm of solution error:0.00099996
+cpuTime :0.811399
+-------------------------------------------------
+ClassicalRK_191(step_number=500000,order=4):
+10.191 solution errors: -2.50691e-12 2.48163e-12 -0 -1.07135e-11 4.93436e-12 -0 
+maxNorm of solution error:1.07135e-11
+cpuTime :4.18774
+-------------------------------------------------
+ClassicalRK_191(step_number=250000,order=4):
+10.191 solution errors: 1.11828e-12 -1.04848e-12 -0 4.92306e-12 -2.01226e-12 -0 
+maxNorm of solution error:4.92306e-12
+cpuTime :2.5826
+-------------------------------------------------
+ClassicalRK_191(step_number=125000,order=4):
+10.191 solution errors: 1.40924e-14 2.28838e-13 -0 8.53877e-14 -1.95399e-14 -0 
+maxNorm of solution error:2.28838e-13
+cpuTime :1.09274
+-------------------------------------------------
+ClassicalRK_191(step_number=62500,order=4):
+10.191 solution errors: 2.69379e-12 9.17165e-13 -0 1.21606e-11 -4.95598e-12 -0 
+maxNorm of solution error:1.21606e-11
+cpuTime :0.551209
+-------------------------------------------------
+ClassicalRK_191(step_number=31250,order=4):
+10.191 solution errors: 3.04166e-11 2.74147e-11 -0 1.408e-10 -5.2921e-11 -0 
+maxNorm of solution error:1.408e-10
+cpuTime :0.243663
+-------------------------------------------------
+ClassicalRK_191(step_number=15625,order=4):
+10.191 solution errors: 2.68003e-10 6.57934e-10 -0 1.31769e-09 -4.04544e-10 -0 
+maxNorm of solution error:1.31769e-09
+cpuTime :0.13175
+-------------------------------------------------
+ClassicalRK_191(step_number=7812,order=4):
+10.191 solution errors: -2.43803e-09 1.72708e-08 -0 -7.67868e-09 7.1357e-09 -0 
+maxNorm of solution error:1.72708e-08
+cpuTime :0.0583715
+-------------------------------------------------
+ClassicalRK_191(step_number=3906,order=4):
+10.191 solution errors: -2.54558e-07 4.92167e-07 -0 -1.04465e-06 5.50205e-07 -0 
+maxNorm of solution error:1.04465e-06
+cpuTime :0.0382024
+-------------------------------------------------
+ClassicalRK_191(step_number=1953,order=4):
+10.191 solution errors: -1.09641e-05 1.4766e-05 -0 -4.61832e-05 2.27446e-05 -0 
+maxNorm of solution error:4.61832e-05
+cpuTime :0.014448
+-------------------------------------------------
+ClassicalRK_191(step_number=976,order=4):
+10.191 solution errors: -0.000394727 0.000455739 -0 -0.00167335 0.000810109 -0 
+maxNorm of solution error:0.00167335
+cpuTime :0.0067359
+-------------------------------------------------
+ClassicalRK_191(step_number=1464,order=4):
+10.191 solution errors: -4.92559e-05 6.12831e-05 -0 -0.000208371 0.000101465 -0 
+maxNorm of solution error:0.000208371
+cpuTime :0.0176992
+-------------------------------------------------
+ClassicalRK_191(step_number=1220,order=4):
+10.191 solution errors: -0.000126094 0.000151017 -0 -0.000534292 0.000259044 -0 
+maxNorm of solution error:0.000534292
+cpuTime :0.0087379
+-------------------------------------------------
+ClassicalRK_191(step_number=1098,order=4):
+10.191 solution errors: -0.000216392 0.000254394 -0 -0.000917357 0.000444166 -0 
+maxNorm of solution error:0.000917357
+cpuTime :0.0085087
+-------------------------------------------------
+ClassicalRK_191(step_number=1037,order=4):
+10.191 solution errors: -0.000289788 0.000337588 -0 -0.00122861 0.000594704 -0 
+maxNorm of solution error:0.00122861
+cpuTime :0.0073092
+-------------------------------------------------
+ClassicalRK_191(step_number=1067,order=4):
+10.191 solution errors: -0.000250513 0.00029314 -0 -0.00106207 0.000514139 -0 
+maxNorm of solution error:0.00106207
+cpuTime :0.0080155
+-------------------------------------------------
+ClassicalRK_191(step_number=1082,order=4):
+10.191 solution errors: -0.000233261 0.000273567 -0 -0.000988906 0.000478758 -0 
+maxNorm of solution error:0.000988906
+cpuTime :0.0074911
+-------------------------------------------------
+ClassicalRK_191(step_number=1074,order=4):
+10.191 solution errors: -0.00024228 0.000283803 -0 -0.00102715 0.000497254 -0 
+maxNorm of solution error:0.00102715
+cpuTime :0.0262806
+-------------------------------------------------
+ClassicalRK_191(step_number=1078,order=4):
+10.191 solution errors: -0.00023772 0.000278629 -0 -0.00100782 0.000487902 -0 
+maxNorm of solution error:0.00100782
+cpuTime :0.008173
+-------------------------------------------------
+ClassicalRK_191(step_number=1080,order=4):
+10.191 solution errors: -0.000235478 0.000276084 -0 -0.000998308 0.000483304 -0 
+maxNorm of solution error:0.000998308
+cpuTime :0.0087803
+-------------------------------------------------
+ClassicalRK_191(step_number=1079,order=4):
+10.191 solution errors: -0.000236596 0.000277353 -0 -0.00100305 0.000485596 -0 
+maxNorm of solution error:0.00100305
+cpuTime :0.0132836
+-------------------------------------------------
+ClassicalRK_190(step_number=1000,order=4):
+10.190 solution errors: 7.42145 -2.57765 0 -2.21531 -8.57534 0 
+maxNorm of solution error:8.57534
+cpuTime :0.0077513
+-------------------------------------------------
+ClassicalRK_191(step_number=1000,order=4):
+10.191 solution errors: -0.000348783 0.000404105 -0 -0.00147867 0.000715773 -0 
+maxNorm of solution error:0.00147867
+cpuTime :0.0085015
+-------------------------------------------------
+ClassicalRK_190(step_number=10000,order=4):
+10.190 solution errors: 0.0180865 0.00120905 0 -1.45969 -1.8251 0 
+maxNorm of solution error:1.8251
+cpuTime :0.0922919
+-------------------------------------------------
+ClassicalRK_191(step_number=10000,order=4):
+10.191 solution errors: 1.89887e-10 5.33227e-09 -0 1.83523e-09 4.36585e-10 -0 
+maxNorm of solution error:5.33227e-09
+cpuTime :0.0802155
+-------------------------------------------------
+ClassicalRK_190(step_number=100000,order=4):
+10.190 solution errors: 1.04005e-06 3.2688e-06 0 0.000532595 0.000161693 0 
+maxNorm of solution error:0.000532595
+cpuTime :0.747667
+-------------------------------------------------
+ClassicalRK_191(step_number=100000,order=4):
+10.191 solution errors: 4.44089e-13 7.66764e-14 -0 2.04323e-12 -8.24289e-13 -0 
+maxNorm of solution error:2.04323e-12
+cpuTime :0.86291
+-------------------------------------------------
+ClassicalRK_190(step_number=1000000,order=4):
+10.190 solution errors: 9.92649e-11 3.11231e-10 0 5.07019e-08 1.54501e-08 0 
+maxNorm of solution error:5.07019e-08
+cpuTime :7.42507
+-------------------------------------------------
+ClassicalRK_191(step_number=1000000,order=4):
+10.191 solution errors: 1.69713e-12 -1.69856e-12 -0 7.25096e-12 -3.34624e-12 -0 
+maxNorm of solution error:7.25096e-12
+cpuTime :8.45072
+-------------------------------------------------
+Total elapsed time: 107.263 seconds
+ClassicalRK_190_stepnumber=1000000_order=4: 7.42507 seconds
+ClassicalRK_190_stepnumber=100000_order=4: 0.747667 seconds
+ClassicalRK_190_stepnumber=10000_order=4: 0.0922919 seconds
+ClassicalRK_190_stepnumber=1000_order=4: 0.0077513 seconds
+ClassicalRK_190_stepnumber=125000_order=4: 0.944718 seconds
+ClassicalRK_190_stepnumber=250000_order=4: 2.06659 seconds
+ClassicalRK_190_stepnumber=500000_order=4: 3.72672 seconds
+ClassicalRK_190_stepnumber=62500_order=4: 0.485546 seconds
+ClassicalRK_190_stepnumber=78125_order=4: 0.619471 seconds
+ClassicalRK_190_stepnumber=82031_order=4: 0.664749 seconds
+ClassicalRK_190_stepnumber=83984_order=4: 0.676429 seconds
+ClassicalRK_190_stepnumber=84960_order=4: 0.66238 seconds
+ClassicalRK_190_stepnumber=85448_order=4: 0.709027 seconds
+ClassicalRK_190_stepnumber=85570_order=4: 0.710132 seconds
+ClassicalRK_190_stepnumber=85631_order=4: 0.767078 seconds
+ClassicalRK_190_stepnumber=85638_order=4: 0.659669 seconds
+ClassicalRK_190_stepnumber=85642_order=4: 0.678624 seconds
+ClassicalRK_190_stepnumber=85644_order=4: 0.706369 seconds
+ClassicalRK_190_stepnumber=85645_order=4: 0.811399 seconds
+ClassicalRK_190_stepnumber=85646_order=4: 0.827045 seconds
+ClassicalRK_190_stepnumber=85661_order=4: 0.675949 seconds
+ClassicalRK_190_stepnumber=85692_order=4: 0.676946 seconds
+ClassicalRK_190_stepnumber=85937_order=4: 0.73244 seconds
+ClassicalRK_190_stepnumber=93750_order=4: 0.731228 seconds
+ClassicalRK_191_stepnumber=1000000_order=4: 8.45072 seconds
+ClassicalRK_191_stepnumber=100000_order=4: 0.86291 seconds
+ClassicalRK_191_stepnumber=10000_order=4: 0.0802155 seconds
+ClassicalRK_191_stepnumber=1000_order=4: 0.0085015 seconds
+ClassicalRK_191_stepnumber=1037_order=4: 0.0073092 seconds
+ClassicalRK_191_stepnumber=1067_order=4: 0.0080155 seconds
+ClassicalRK_191_stepnumber=1074_order=4: 0.0262806 seconds
+ClassicalRK_191_stepnumber=1078_order=4: 0.008173 seconds
+ClassicalRK_191_stepnumber=1079_order=4: 0.0132836 seconds
+ClassicalRK_191_stepnumber=1080_order=4: 0.0087803 seconds
+ClassicalRK_191_stepnumber=1082_order=4: 0.0074911 seconds
+ClassicalRK_191_stepnumber=1098_order=4: 0.0085087 seconds
+ClassicalRK_191_stepnumber=1220_order=4: 0.0087379 seconds
+ClassicalRK_191_stepnumber=125000_order=4: 1.09274 seconds
+ClassicalRK_191_stepnumber=1464_order=4: 0.0176992 seconds
+ClassicalRK_191_stepnumber=15625_order=4: 0.13175 seconds
+ClassicalRK_191_stepnumber=1953_order=4: 0.014448 seconds
+ClassicalRK_191_stepnumber=250000_order=4: 2.5826 seconds
+ClassicalRK_191_stepnumber=31250_order=4: 0.243663 seconds
+ClassicalRK_191_stepnumber=3906_order=4: 0.0382024 seconds
+ClassicalRK_191_stepnumber=500000_order=4: 4.18774 seconds
+ClassicalRK_191_stepnumber=62500_order=4: 0.551209 seconds
+ClassicalRK_191_stepnumber=7812_order=4: 0.0583715 seconds
+ClassicalRK_191_stepnumber=976_order=4: 0.0067359 seconds

@@ -1,0 +1,92 @@
+\chapter{Introduction}
+\label{ch:introduction}
+
+%Write around four paragraphs establishing the context and motivating your project.
+
+% \section{Related work}
+
+% Discuss related work.
+
+\section{Story}
+
+% One sentence summary of your project. Followed by a short list of concrete objectives:
+The restricted three-body system is a model for studying
+the motion of an earth-moon satellite or of an asteroid close
+enough to the earth to be strongly influenced by the earth
+and the sun.
+
+In this system, the two heavy bodies are regarded as revolving
+ in fixed orbits about their common centre of mass
+while the small body is attracted by the heavy bodies but
+never affecting their motion. 
+To further simplify the problem, we approximate orbits of the 
+heavy bodies as circles so
+that we can work in a frame of reference that rotates with
+the two heavy bodies. In this frame, the two heavy bodies
+are considered as fixed in space with their rotation 
+translated into a modification of the equations of gravitational
+motion. For simplicity, we scale the units to reduce a number 
+of constants to one. We also scale the masses of the two
+heavy bodies to $1 - \mu$ and µ and their positions relative to
+the moving reference frame by the vectors $\mu e_1$ and $(\mu - 1)e_1$
+respectively so that their center of mass is at the origin of
+coordinates.
+
+Denote by $u_1$, $u_2$ and $u_3$ the scalar variables representing
+the position coordinates of the small body and by $u_4$, $u_5$ and
+$u_6$ the corresponding velocity coordinates. The equations of
+motion for u(t) are
+
+\begin{align*}
+    \begin{cases}
+        u_1' = u_4\\
+        u_2' = u_5\\
+        u_3' = u_6\\
+        u_4' = 2u_5+u_1-\frac{\mu(u_1+\mu-1)}{(u_2^2+u_3^2+(u_1+\mu-1)^2)^{3/2}}
+        -\frac{(1-\mu)(u_1+\mu)}{(u_2^2+u_3^2+(u_1+\mu)^2)^{3/2}}\\
+        u_5' = -2u_4 + u_2 - \frac{\mu u_2}{(u_2^2+u_3^2+(u_1+\mu)^2)^{3/2}}
+        -\frac{(1-\mu)u_2}{(u_2^2+u_3^2+(u_1+\mu)^2)^{3/2}}\\
+        u_6' = -\frac{\mu u_3}{(u_2^2+u_3^2+(u_1+\mu-1)^2)^{3/2}}-\frac{(1-\mu)u_3}{(u_2^2+u_3^2+(u_1+\mu)^2)^{3/2}}
+    \end{cases}
+\end{align*}
+
+Planar motion is possible; that is, solutions which satisfy $u_3 = u_6 = 0$ at all times. One of these is shown in the
+LHS plot of Figure 10.14, with the values of $(u_1, u_2)$ plotted as the orbit evolves. The heavier mass is at the point
+$(−\mu, 0)$ and the lighter mass is at $(1 - \mu, 0)$, where $(0, 0)$ is
+marked 0 and (1, 0) is marked 1. For this calculation the
+value of $\mu = 0.012277471$ was selected, corresponding to the
+earth-moon system. The initial values for this computation
+were
+\begin{align*}
+    u(0) = (0.994, 0, 0, 0, -2.0015851063790825224, 0) && (10.190)
+\end{align*}
+and the period was $T_1 =17.06521656015796$.
+
+The RHS plot of Figure 10.14 illustrates another solution
+of (10.189) with a different initial condition
+\begin{align*}
+    u(0) = (0.879779227778, 0, 0, 0, −0.379677780949, 0) && (10.191)
+\end{align*}
+and a different period $T_2 =19.140540691377$.
+
+\includegraphics*[scale = 0.8]{../figures/f10.14.png}
+
+\section{编译}
+
+注：由于在确定满足误差小于一定值的最小cpu时间时，采用了二分搜索法，以及控制自适应步长算法的总步数时采用了遍历搜索方法，
+导致运行完整的程序需要的时间较长，建议注释一部分，运行一部分。在自行测试代码时，如果不使用求解器工厂获得求解器，请注意使用
+智能指针以便及时释放内存。
+
+\subsection{使用xmake编译}
+\begin{verbatim}
+$ xmake build ivp //生成静态库
+$ xmake build test //编译测试程序
+$ xmake run test //运行测试程序
+$ xmake run plot //将测试程序的输出绘制成report需要的图片
+$ xmake build report //编译latex文件程序报告
+$ xmake clean //清除所有生成的文件
+$ xmake build all //按顺序运行以上除了clean的所有
+\end{verbatim}
+
+
+\subsection{使用make编译}
